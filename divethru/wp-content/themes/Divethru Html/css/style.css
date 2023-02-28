@@ -1,0 +1,2643 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+{font-family: 'Archivo', sans-serif;
+font-family: 'Lexend', sans-serif;}
+
+@charset "utf-8";
+
+
+
+/* CSS Document */
+
+
+
+/*===============================================================
+
+
+
+Common portion start
+
+
+
+=================================================================
+
+
+
+/*====================		 Custom font css start 		==================== */
+
+
+
+
+/*////////////////////////////////////////
+
+
+
+// General Css
+
+
+
+///////////////////////////////////////*/
+
+html, body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    scroll-behavior: smooth;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  background: #ffffff;
+  line-height: 1.2;
+  font-weight: 400;
+  font-style: normal;
+  color: #000000;
+  overflow-x: hidden;
+ font-family: 'Archivo', sans-serif;
+}
+div, table, tr, th, td, figure, th, video, audio, h1, h2, h3, h4, h5, h6, aside, canvas, section, header, footer, nav, span, p, small, big, a, b, strong, img, hr, pre, button, input, textarea, optgroup, ul, li, ol, select, option, blockquote, nav {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    list-style-type: none;
+}
+.clear {
+    clear: both;
+}
+.clearfix:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+.parent-wrap {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+.child-wrap {
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+}
+img {
+    max-width: 100%;
+    display: block;
+}
+h1, h2, h3, h4, h5, h6 {
+    -webkit-font-smoothing: antialiased; 
+}
+h1{
+  font-family: 'Lexend', sans-serif;
+  font-weight: bold;
+  font-size: 55px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+h2{
+    font-family: 'Lexend', sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    line-height: 1.2;
+    color: #000000;
+    letter-spacing: 0.02em;
+}
+h3{
+    font-family: 'Lexend', sans-serif;
+    /*font-size: 50px;*/
+    /*font-weight: bold;*/
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 58px;
+    letter-spacing: 0.02em;
+}
+h4{
+    font-family: 'Lexend', sans-serif;
+    font-weight: bold;
+    font-size: 27px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+h5{
+    font-family: 'Lexend', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+h6{
+    font-family: 'Archivo', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-weight: 600;
+    letter-spacing: 0.03em;
+}
+p {
+    font-family: 'Archivo', sans-serif;
+    line-height: 1.5;
+    font-size: 17px;
+    color: #000;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+}
+p:last-child{
+  padding-bottom:0;
+}
+ul {
+  margin-bottom: 0px ;
+}
+input, textarea{
+  font-size: 16px;
+  font-weight: 400;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 14px;
+    font-family: 'Archivo', sans-serif;
+}
+::-moz-placeholder { /* Firefox 19+ */
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 14px;
+    font-family: 'Archivo', sans-serif;
+}
+:-ms-input-placeholder { /* IE 10+ */
+	color: #ffffff;
+	font-weight: 400;
+	font-size: 14px;
+    font-family: 'Archivo', sans-serif;
+}
+:-moz-placeholder { /* Firefox 18- */
+	color: #ffffff;
+	font-weight: 400;	
+	font-size: 14px;
+    font-family: 'Archivo', sans-serif;
+}
+::selection {
+  background: #1F1F1F;
+  color: #fff;
+}
+::-moz-selection {
+ background: #1F1F1F;
+ color:#fff;
+}
+::-webkit-selection {
+ background: #1F1F1F;
+ color:#fff;
+}
+::-o-selection {
+ background: #1F1F1F;
+ color:#fff;
+}
+::-ms-selection {
+ background: #1F1F1F;
+ color:#fff;
+}
+.dFlx{
+  display: -webkit-box;      
+  display: -moz-box;         
+  display: -ms-flexbox;     
+  display: -webkit-flex;    
+  display: flex;  
+}
+.btn{
+    font-weight: 600;
+    text-align: center;
+    display: inline-block;
+    -webkit-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    font-size: 24px;
+    cursor: pointer;
+    font-family: 'Archivo', sans-serif;
+    vertical-align: middle;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 50px;
+    color: #fff;
+    padding: 18px 22px;
+    background: #883dbf;
+    letter-spacing: 1px;
+    box-shadow: 0px 7px 8px #c5c5c5;
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+
+}
+a:hover {
+    text-decoration: none;
+}
+
+.aside {
+  min-width: 350px;
+  width: 15%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #1bcdb7;
+  border-right: none;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  z-index: 2000;
+  width: 0px;
+  min-width: 0px;
+  overflow: hidden;
+  transition: 0.35s width ease, 0.35s min-width ease;
+}
+
+.aside .aside-header {
+  background-color: transparent;
+  padding: 5px 17px 51px 28px;
+  border-bottom: none;
+  font-size: 44px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.aside .aside-header .close {
+  float: right;
+  cursor: pointer;
+  position: absolute;
+  right: 19px;
+  top: 0;
+}
+
+.aside .aside-contents {
+  padding: 0;
+  padding-bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1340px;
+  margin: 50px auto;
+  flex-flow: row wrap;
+}
+
+.aside.in {
+  /*width: 40%;*/
+  min-width: 320px;
+  padding: 0 50px;
+  width: 100%;
+
+}
+
+.aside-backdrop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1040;
+  background-color: #000;
+  transition: 0.2s opacity ease;
+  opacity: 0;
+  display: none;
+}
+
+.aside-backdrop.in {
+  display: block;
+  opacity: 0.5;
+}
+.container{max-width: 1470px; margin: 0 auto; padding: 0 15px;}
+.main-head{background: #fff;padding: 40px 0;border-bottom: 1px solid #d1d1d6;}
+.main-head .navarea{
+    width: 4%;
+}
+.main-head .navarea button{background: #fff;cursor: pointer;}
+.main-head .logoarea{
+    width: 35%;
+}
+.main-head .headbtnarea{
+    text-align: right;
+    width: 61%;
+}
+.main-head .dFlx{align-items: center;}
+.main-head .headbtnarea ul{}
+.main-head .headbtnarea ul li{
+    display: inline-block;
+}
+.main-head .headbtnarea ul li a.btn-login{
+    font-size: 24px;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-left: 30px;
+}
+.navarea .aside-contents ul{}
+.navarea .aside-contents ul li{}
+.navarea .aside-contents ul a{
+}
+.navarea .aside-contents ul a:hover{    background: linear-gradient(to bottom, rgba(27,205,183,0) 0%,rgb(27 205 183 / 28%) 100%);}
+.main-slider{background: #1bcdb7;padding: 100px 0 35px 0;width: 100%;position: relative;}
+.main-slider .dFlx{align-items: center;}
+.main-slider .banner-left{width: 45%;}
+.main-slider .banner-left h1{ color: #fff; margin-bottom: 60px;}
+.main-slider .banner-left .btn{ background: #000;box-shadow: 0px 7px 8px #00000080;}
+.main-slider .banner-right{width: 55%;text-align: center;padding-left: 5%;}
+.main-slider .banner-right .banner-shape{
+    width: 100%;
+}
+.main-slider .banner-right .banner-user{
+    position: absolute;
+    text-align: center;
+    right: 19%;
+    bottom: 0;
+}
+.main-slider .banner-right .banner-user img{
+    width: 580px;
+}
+.btn:hover{opacity: 0.7;transform: scale(1.1);}
+.page-header{}
+.page-header h3{color: #000; margin-bottom: 50px;}
+.blog .page-header h3, .meetourtherapists .page-header h3{margin-bottom: 0px;}
+.page-header h3 span{background: #1bcdb7;color: #fff;padding: 0px 12px 10px 12px;border-radius: 5px;box-shadow: 0px 7px 8px #00000021; transition: all .3s ease; -webkit-transition: all .3s ease;}
+.page-header h3 span:hover{
+    background: #BDF6E4;
+    color: #000;
+}
+.pt-85{padding-top: 85px;}
+.pb-85{padding-bottom: 85px;}
+.pt-115{padding-top: 115px;}
+.pb-115{padding-bottom: 115px;}
+.mb-85{margin-bottom: 85px;}
+.bt-85{margin-top: 85px;}
+.meetyoursupportsys{
+    text-align: center;
+}
+
+.meetyoursupportsys .para{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 80px;
+}
+.meetyoursupportsys .para h6{
+    color: #000;
+}
+.meetyoursupportsys .dFlx{margin: 0 -50px;}
+.meetyoursupportsys-item{
+    text-align: center;
+    width: 33.33%;
+    margin: 0 50px;
+    border-radius: 25px;
+    border: 1px solid #eee;
+    padding: 25px;
+    box-shadow: 0px 7px 8px #e3e3e373;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.meetyoursupportsys-item:hover{
+/*    background: linear-gradient(to bottom, rgba(27,205,183,0) 0%,rgb(27 205 183 / 28%) 100%);*/
+    background: #BDF6E4;
+}
+.meetyoursupportsys-item img{
+    margin: 0 auto;
+    height: 82px;
+}
+.meetyoursupportsys-item h6{
+    font-size: 22px;
+    color: #883dbf;
+    margin: 40px 0 35px 0;
+}
+.meetyoursupportsys-item p{
+}
+.startjourny{}
+.startjourny .page-header{ margin-bottom: 43px;}
+.startjourny .journey-item{
+    border-radius: 16px;
+    background: #fff;
+    box-shadow: 0px 14px 9px #c3c3c338;
+    margin-bottom: 40px;
+    margin-left: 0;
+    margin-right: 60px;
+}
+.startjourny .journey-item img{width: 100%;}
+.startjourny .journey-item .journey-item-text{
+    padding: 23px;
+    align-items: center;
+}
+.startjourny .journey{margin: 0 -30px}
+.startjourny .journey-item .journey-item-text .j-i-text{
+    width: 60%;
+}
+.startjourny .journey-item .journey-item-text .j-i-text h6{
+    margin-bottom: 8px;
+    color: #000;
+}
+.startjourny .journey-item .journey-item-text .j-i-text p{
+    color: #585758;
+}
+.startjourny .journey-item .journey-item-text .btnarea{
+    width: 40%;
+    padding-left: 10%;
+    text-align: right;
+}
+.startjourny .journey-item .journey-item-text .btnarea a{padding: 12px 25px;}
+.meetourtherapists{}
+.meetourtherapists .page-header .btnarea{}
+.meetourtherapists .page-header{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    }
+.main-head .btn{
+    width: 241px;
+}
+
+.startjourny .slick-slider .element{
+  width:100px;
+  background-color: transparent;
+  color:#fff;
+  border-radius: 16px;
+  display:inline-block;
+  margin:0px 10px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  font-size:20px;
+}
+.startjourny .slick-slider .slick-disabled {
+  opacity : 1; 
+  pointer-events:none;
+}
+
+.startjourny .slick-sliderWrp{
+  overflow: hidden;
+}
+
+.startjourny .slick-sliderWrp {
+    overflow: hidden;
+    /*margin-left: 10%;*/
+    padding-left: calc(((100% - 1470px) / 2) + 0.75rem);
+}
+
+.startjourny .slick-sliderWrp .slick-slider{
+  width: 2500px;
+  /*width: 100%;*/
+}
+.meetourtherapists{}
+.meetourtherapists .therapists{}
+.meetourtherapists .therapists .dFlx{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center;
+    }
+.meetourtherapists .therapists li{}
+.meetourtherapists .therapists li a{}
+.meetourtherapists .therapists li a img{transition: 0.5s; margin: 0 auto;}
+.meetourtherapists .therapists li a img:hover{    transform: scale(1.3);}
+.meetourtherapists .therapists li a h5{
+    font-size: 22px;
+    color: #000;
+    margin-top: 30px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+.meetourtherapists .page-header a.btn{padding: 12px 33px;}
+.blog{background: #1bcdb7;box-shadow: 0px 5px 6px #ddd;}
+.blog .page-header{justify-content: space-between;
+    flex-wrap: wrap;
+    text-align: center; margin-bottom: 60px;}
+.blog .page-header h3{ letter-spacing: 2px; color: #fff;}
+.blog .page-header .btnarea{}
+.blog .page-header .btnarea a.btn{padding: 12px 33px;color: #000; background: #fff;    box-shadow: 0px 7px 8px #00000080;}
+.blog .bloginnertext{justify-content: space-between;
+    flex-wrap: wrap; margin: 0 -45px;}
+.blog .bloginnertext .blog-inner{width: 33.33%;padding: 0 45px;transition: 0.5s;}
+.blog .bloginnertext .blog-inner:hover{    transform: scale(1.1);}
+.blog .bloginnertext .blog-inner a{background: #fff;box-shadow: 0px 7px 8px #00000080;border-radius: 20px;display: block;overflow: hidden;margin-bottom: 75px;}
+.blog .blog-inner{}
+.blog .blog-inner img{
+    width: 100%;
+}
+.blog .blog-inner h5{
+    font-size: 22px;
+    font-weight: 500;
+    color: #000;
+    padding: 15px;
+    padding-bottom: 10px;
+}
+.blog .blog-inner p{
+    padding: 0px 15px 15px;
+    font-size: 20px;
+    color: #585758;
+}
+.footer-up{
+    position: relative;
+}
+.footer-up .dFlx{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.footer-up .page-header{
+    width: 50%;
+}
+.footer-up .footerup-uerarea{
+    width: 50%;
+}
+.footer-up .footerup-uerarea img{width: 100%;}
+.footer-up .footerup-uerarea .f-u-user{
+    position: absolute;
+    top: auto;
+    right: 10%;
+    bottom: 0;
+}
+.footer-up .footerup-uerarea .f-u-user img{
+    width: 800px;
+}
+.main-footer{
+    border-top: 1px solid #d1d1d6;
+    padding: 15px 0;
+}
+.main-footer .dFlx{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    }
+.main-footer .f-left{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-right: 9%;
+}
+.main-footer .f-left .footerlogo{}
+.main-footer .f-left .footerlogo img{}
+.main-footer .f-left .footer-link{}
+.main-footer .f-left .footer-link ul{}
+.main-footer .f-left .footer-link ul li{}
+.main-footer .f-left .footer-link ul li a{
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 15px;
+    display: block;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.main-footer .f-left .footer-link ul li a:hover{color: #883dbf;}
+.main-footer .f-right{
+    width: 50%;
+    border-left: 1px solid #d1d1d6;
+    padding-left: 4%;
+}
+.main-footer .f-right .f-right-text1{margin-bottom: 20px;padding-top: 20px;}
+.main-footer .f-right .f-right-text1 p{
+    display: flex;
+    align-items: baseline;
+}
+.main-footer .f-right .f-right-text1 p img{height: 15px;padding-right: 
+10px;}
+.main-footer .f-right .f-right-text1 p span{
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+}
+.main-footer .f-right .f-right-text2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-left: 28px;
+    padding-bottom: 20px;
+}
+.main-footer .f-right .f-right-text2 .f-right-text2-inner{}
+.main-footer .f-right .f-right-text2 .f-right-text2-inner h6{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.main-footer .f-right .f-right-text2 .f-right-text2-inner a{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+.main-footer .f-right .f-right-text2 .f-right-text2-inner p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+}
+.aside .aside-contents .nav-item{}
+.aside .aside-contents .nav-item span{
+    font-size: 20px;
+    color: #000;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    background: #BDF6E4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-weight: 700;
+line-height: 22px;
+letter-spacing: 0.03em;
+}
+.aside .aside-contents .nav-item ul{
+    flex-wrap: wrap;
+    display: flex;
+    text-align: left;
+    margin-bottom: 30px;
+    flex-flow: column;
+}
+.aside .aside-contents .nav-item ul li{
+    color: #fff;
+    text-align: left;
+    width: 100%;
+}
+.aside .aside-contents .nav-item ul li a{
+    color: #fff;
+    padding: 15px 0;
+    display: block;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 27px;
+    letter-spacing: 0.05em;
+}
+#button {
+  display: inline-block;
+  background-color: #1bcdb7;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 6px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 1em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #333;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+/************************Career*********************************/
+.inner-banner-sec{
+    position: relative;
+}
+.inner-banner-sec .dFlx{align-items: center;}
+.inner-banner-sec .inner-banner-sec-left{
+    width: 45%;
+}
+.inner-banner-sec .inner-banner-sec-left h2{
+    margin-bottom: 50px;
+}
+.inner-banner-sec .inner-banner-sec-left p{
+    font-size: 35px;
+}
+.inner-banner-sec .inner-banner-sec-left{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.inner-banner-sec .inner-banner-sec-right{
+    width: 55%;
+    padding-left: 5%;
+}
+.inner-banner-sec .inner-banner-sec-right .banner-shape{}
+.inner-banner-sec .inner-banner-sec-right .banner-user{}
+.inner-banner-sec .inner-banner-sec-right .banner-user img{
+    position: absolute;
+    text-align: center;
+    right: 14%;
+    bottom: 0;
+}
+.WereDiveThru{
+    margin-top: 0px;
+}
+.MeetOurTeamSection{
+    margin-top: 0;
+}
+.WereDiveThru .page-header{ text-align: center;}
+.WereDiveThru .page-header p{font-size: 32px;width: 69%;margin: 0 auto;font-weight: 600;margin-bottom: 70px;}
+.WereDiveThru .page-header h3 {
+    margin-bottom: 70px;
+}
+.MeetOurTeamSection .page-header h3 {
+    margin-bottom: 50px;
+}
+.WereDiveThru{
+    overflow: hidden;
+}
+.WereDiveThru  .WereDiveThru-inner{}
+.WereDiveThru  .WereDiveThru-inner h4{
+    font-size: 40px;
+    margin-bottom: 75px;
+}
+.WereDiveThru  .meetyoursupportsys-item {
+    margin: 0 50px 0 0;
+}
+.WereDiveThru  .slick-slider2{margin: 0 -25px;}
+.WereDiveThru .about-slide .slick-slider2{margin: 0;}
+
+
+.WereDiveThru .slick-sliderWrp {
+    /* overflow: hidden; */
+    margin-left: 0;
+}
+.WereDiveThru .slick-sliderWrp .slick-slider {
+    width: 2500px;
+}
+.WereDiveThru  .meetyoursupportsys-item p {
+    font-size: 17px;
+    color: #585758;
+    padding: 0 34px;
+}
+.whyworkforus{background: #883dbf;position: relative;box-shadow: 0px 5px 6px #00000036;}
+.whyworkforus .page-header{text-align: center;}
+.whyworkforus .page-header h3{font-size: 58px; color: #fff;}
+.whyworkforus .page-header p{font-size: 24px;color: #fff;width: 64%;margin: 0 auto;}
+.whyworkforus .whyworkforus-left{
+    width: 50%;
+}
+.whyworkforus .whyworkforus-left ul{}
+.whyworkforus .whyworkforus-left ul li{color: #fff;font-size: 22px;font-weight: 500;margin-bottom: 25px;}
+.whyworkforus .whyworkforus-left ul li::before{content: "\f111";color: #fff;font: normal normal normal 8px/1 FontAwesome;vertical-align: middle;padding-right: 18px;}
+.whyworkforus .whyworkforus-right{
+    width: 50%;
+    text-align: right;
+}
+.whyworkforus .whyworkforus-right .whyworkforus-bg{float: right;}
+.whyworkforus .whyworkforus-right .whyworkforus-usera{
+    position: absolute;
+    top: auto;
+    right: 12%;
+    bottom: 0;
+    }
+.whyworkforus .whyworkforus-right .whyworkforus-usera img{}
+.whyworkforus .dFlx{align-items: center;margin-top: 50px;}
+.openroll{background:#1bcdb7;}
+.openroll .page-header h3{color: #fff;}
+.openroll .openroll-item{
+    text-align: center;
+    background: #fff;
+    border-radius: 25px;
+    width: 30.33%;
+    margin: 0px 15px;
+    padding: 50px;
+}
+.openroll .openroll-item:hover{
+        background: #BDF6E4;
+}
+.openroll .openroll-item h4{
+    font-size: 36px;
+    color: #883dbf;
+    margin-bottom: 20px;
+    font-family: 'Archivo', sans-serif;
+}
+.openroll .openroll-item p{
+    font-size: 24px;
+    color: #000;
+    font-weight: 400;
+}
+.openroll .dFlx{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 -15px;
+}
+
+
+
+
+/*Media Press Sec Start*/
+.btn-purple{
+    background: #883DBF;
+}
+.bg-purple{
+    background: #883DBF !important;
+}
+.bg-white{
+    background: #fff !important;
+}
+.bg-purple h2, .bg-purple h1, .bg-purple h3, .bg-purple h4, .bg-purple h5, .bg-purple h6{
+    color: #fff;
+}
+.bg-white h2, .bg-white h1, .bg-white h3, .bg-white h4, .bg-white h5, .bg-white h6{
+    color: #000 !important;
+}
+.bg-green{
+    background: #1BCDB7 !important;
+}
+.btn-green{
+    background: #1BCDB7 !important;
+}
+.btn-violet{
+    background: #883dbf !important;
+}
+.btn-black{
+    background: #000 !important;
+    box-shadow: 1px 7px 8px rgb(0 0 0 / 15%);
+}
+.btn-green{
+    background: #1BCDB7 !important;
+}
+.deep-light-green{
+    background: #1BCDB7;
+}
+.btn-transparent{
+    background: transparent;
+    border:  1px solid #883DBF;
+    color: #883DBF;
+}
+.btn-green-transparent{
+    background: transparent;
+    border:  1px solid #1BCDB7;
+    color: #1BCDB7;
+}
+.btn-green{
+    background: #1BCDB7 !important;
+}
+.media_press_sec .inner-banner-sec-right img{
+    margin-right: 0;
+    margin-left: auto;
+}
+.button-wrapper .btn{
+    margin-right: 27px;
+}
+.button-wrapper .btn:last-child{
+    margin-right: 0;
+}
+.button-wrapper{
+    margin-top: 50px;
+}
+.FeaturedIn_box {
+    border: 2px solid #1BCDB7;
+    border-radius: 15px;
+}
+.page-header.FeaturedIn_box h3 span{
+    padding: 0 25px;
+}
+.WereDiveThru .page-header h3 {
+    margin-top: 0px;
+}
+.MeetOurTeamSection .page-header h3 {
+    margin-top: 0px;
+}
+.FeaturedIn_box ul {
+    display: flex;
+    flex-flow: row wrap;
+    /*justify-content: space-between;*/
+    width: 100%;
+    padding: 0 20px 20px;
+}
+.FeaturedIn_box ul li{
+    width: 25%;
+}
+.FeaturedIn_box ul li img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+.FeaturedIn_box ul li {
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+    padding: 0 25px;
+}
+
+.startjourny .journey-item .Mental-Health img{
+    margin: 0 auto;
+    width: auto;
+    height: auto;
+}
+.Mental-Health{
+    background: #BDF6E4;
+    padding: 30px 30px 40px 30px;
+    border-radius: 15px;
+}
+.Mental-Health .j-i-text h3{
+    text-align: center;
+    margin-top: 40px ;
+    margin-bottom: 40px;
+}
+.Mental-Health .btnarea .btn{
+    margin: 0 auto;
+}
+.Mental-Health .btnarea{
+    display: flex;
+    justify-content: center;
+}
+
+
+.Funding-Partners_box ul {
+    display: flex;
+    flex-flow: row wrap;
+    /*justify-content: space-between;*/
+    width: 100%;
+    padding: 0 20px 20px;
+}
+.Funding-Partners_box ul li{
+    width: 25%;
+}
+.Funding-Partners_box ul li img{
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+.Funding-Partners_box ul li {
+    width: 25%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+    padding: 0 25px;
+}
+.Our-Funding-Partners .page-header h3 {
+    text-align: left !important;
+}
+.interested-in-content h2{
+    text-align: center;
+}
+.interested-in-content p{
+    text-align: center;
+}
+.interested-in-content .button-wrapper{
+    justify-content: center;
+    display: flex;
+}
+.interested-in-connecting p{
+    font-size: 45px;
+}
+.interested-in-connecting{
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+}
+
+.Mental-Health-Section .slick-sliderWrp {
+    padding-left: calc(((100% - 1470px) / 2) + 0.75rem);
+    margin-left: 0;
+}
+
+
+/*Media Press Sec End*/
+
+
+
+/*About Page Css Start*/
+.about-banner .banner-right {
+    width: 55%;
+    text-align: center;
+    padding-left: 3%;
+    background-position: right bottom !important;
+    background-size:  contain !important;
+    background-repeat: no-repeat !important;
+}
+.about-banner {
+    background: #1bcdb7;
+    padding: 16px 0 0px 0 !important;
+    width: 100%;
+    position: relative;
+}
+.about-banner .banner-left h1{
+    color: #000000;
+    margin-bottom: 0px;
+    font-size: 68px;
+}
+.about-banner .banner-left h1 span{
+    color: #fff;
+    display: block;
+}
+.we-are-divethru h6{
+    text-align: center;
+    font-size: 35px;
+    margin: 0 auto;
+}
+.we-are-divethru .para h6 span{
+    background: #1bcdb7;
+    color: #fff;
+    padding: 0px 12px 10px 12px;
+    border-radius: 5px;
+    box-shadow: 0px 7px 8px #00000021;
+}
+.we-are-divethru .para{
+    margin-bottom: 0;
+}
+.call-to-action{
+    padding: 40px 0;
+}
+.page-header {
+    justify-content: space-around;
+    align-items: center;
+}
+.btn-purple h6{
+    color: #fff;
+}
+.call-to-action .btn{
+    padding: 12px 33px;
+    color: #000;
+    background: #fff;
+    box-shadow: 0px 7px 8px #00000080;
+}
+.left-box {
+    width: 56%;
+}
+.content p {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 26px;
+    margin-bottom: 30px;
+    letter-spacing: 0.03em;
+}
+.content{
+    position: relative;
+}
+img.quete-top {
+    position: absolute;
+    top: -40px;
+    left: -46px;
+}
+img.quete-bottom {
+    position: absolute;
+    right: -20px;
+    bottom: 40px;
+}
+.sophie-content h6 {
+    text-align: right;
+}
+.right-box {
+    width: 46%;
+    padding-left: 5%;
+}
+
+
+.MeetOurTeamSection .therapists ul{
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.MeetOurTeamSection .therapists ul li{
+    width: 25%;
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+}
+
+.MeetOurTeamSection .therapists ul li img{
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    margin: 0 auto;
+}
+.MeetOurTeamSection .therapists ul li:hover img{
+    transform: scale(1.1);
+}
+.MeetOurTeamSection .therapists ul li h6 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #000000;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+.MeetOurTeamSection .therapists ul li p {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 0px;
+    margin-top: 10px;
+
+}
+.MeetOurTeamSection .therapists ul li h5{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 10px;
+    letter-spacing: 0.02em;
+}
+.MeetOurTeamSection .therapists .content{
+    margin-top: 40px;
+}
+
+
+
+
+
+
+
+
+.dog-content img{
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    margin: 0 auto;
+}
+.dog-content a:hover img{
+    transform: scale(1.1);
+}
+.dog-content h6 {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #000000;
+    letter-spacing: 0.02em;
+}
+.dog-content p {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.dog-content h5{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+    margin-top: 10px;
+    letter-spacing: 0.02em;
+}
+.dog-content .content{
+    margin-top: 40px;
+}
+.container-big{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.Animals-Inner{
+    width: 100%;
+    overflow: hidden;
+}
+.we-are-divethru .para{
+    margin-bottom: 0 !important;
+}
+
+/*About Page Css End*/
+.Our-Funding-Partners .slick-slider{
+    max-width: 100%;
+}
+.Funding-logo{
+    margin: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+}
+.Funding-logo img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.our-tharapist-banner{
+    padding: 0;
+}
+.our-tharapist-banner .banner-right {
+    width: 55%;
+    text-align: center;
+    padding-left: 3%;
+    background-position: top center !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+.our-tharapist-banner .banner-right img{
+    margin-top: 4.5rem;
+}
+.our-tharapist-banner p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 1.3;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    margin-bottom: 33px;
+}
+.our-tharapist-banner .banner-left h1{
+    margin-bottom: 30px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 65px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+.section2 .leftBbox{
+    width: 35%;
+    margin-right: 5%;
+}
+.section2 .righBox{
+    width: 58%;
+}
+.section2-content{
+    align-items: center;
+    justify-content: space-between;
+
+}
+.values-left {
+    width: 50%;
+    background: #1BCDB7;
+    padding-right: 30px;
+    padding-left: calc(((100% - 1470px) / 2) + 0.75rem);
+    background: #1BCDB7;
+    border-radius: 0px 35px 35px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.values-right {
+    width: 50%;
+    padding-left: 30px;
+    padding-right: calc(((100% - 1470px) / 2) + 0.75rem);
+}
+.values-right ul{
+    justify-content: space-between;
+    flex-flow: row wrap;
+    align-items: stretch;
+    height: 100%;
+    padding: 40px 0;
+}
+.values-right ul li{
+    width: 32%;
+    text-align: center;
+}
+.values-right ul li img{
+    margin: 0 auto;
+    max-width: 90%;
+    max-height: 70%;
+}
+.icon-wrap {
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.values-right .content {
+    position: relative;
+    height: 100%;
+}
+.values-left h2{
+    font-size: 58px;
+    margin-bottom: 30px;
+}
+.values-left h2, .values-left h6{
+    color: #fff;
+    text-align: center;
+}
+.Therapist-Match-content .left-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Therapist-Match-section h3 {
+    color: #883DBF;
+    margin-bottom: 30px;
+}
+.Therapist-Match-section h6{
+    margin-bottom: 30px;
+}
+
+
+.Meet-Our-Therapists-section .therapists ul li {
+    width: 22%;
+    filter: drop-shadow(0px 4px 4px rgba(217, 217, 217, 0.5));
+    background: #fff;
+    margin-right: 4%;
+    border-radius: 25px;
+    margin-bottom: 40px;
+}
+.Meet-Our-Therapists-section .therapists ul li:nth-of-type(4n+0){
+    margin-right: 0;
+}
+.Meet-Our-Therapists-section .therapists ul li:last-child{
+    margin-right: 0;
+}
+.Meet-Our-Therapists-section .therapists .content {
+    margin-top: 20px;
+}
+.Meet-Our-Therapists-section h2{
+    margin-bottom: 70px;
+}
+.areas-button-wrap {
+    /*max-width: 1122px;*/
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    }
+.areas-button-wrap .btn{
+    width: 252px;
+    margin: 15px;
+    height: 78px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    padding: 0;
+}
+.areas-button-wrap .btn:nth-of-type(even){
+    background: #1BCDB7;
+}
+.btn-row{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+
+
+
+.therapist-bottom .page-header {
+    padding-left: calc(((100% - 1470px) / 2) + 0.75rem);
+}
+.footerup-uerarea{
+    background-position: right top !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.therapist-bottom  .footerup-uerarea {
+    width: 40%;
+}
+
+.values-right ul li h5{
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.our-tharapist-banner .banner-left h1 span{
+    background: #883dbf;
+    color: #fff ;
+    padding: 0px 12px 10px 12px;
+    border-radius: 5px;
+    box-shadow: 0px 7px 8px #00000021;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+.our-tharapist-banner .banner-left h1 span:hover{
+    background: #E1D2F8;
+    color: #000;
+}
+
+.support-system .banner-right img {
+    margin-top: 0rem;
+}
+
+.support-system2 .Therapist-Match-content{
+    flex-flow: row-reverse;
+}
+
+.support-system2 .left-box{
+    width: 60%;
+    margin:0 0px 0 25px;
+    padding: 0;
+}
+.support-system2 .right-box{
+    width: 40%;
+    margin: 0 25px 0 0px;
+    padding: 0;
+}
+
+.support-system2 .left-box h4{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.support-system2 .right-box .image-wrap{
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.support-system2 .right-box .image-wrap img{
+    width: 100%;
+}
+
+.slick-dots li button {
+    font-size: 0;
+    line-height: 0;
+    display: block;
+    width: 15px !important;
+    height: 15px !important;
+    padding: 0;
+    cursor: pointer;
+    color: transparent;
+    border: 0;
+    outline: 0;
+    background: transparent !important;
+    border: 1px solid #883dbf !important;
+    border-radius: 50%;
+}
+.slick-dots li button:hover, .slick-dots li.slick-active button{
+    background: #883dbf !important;
+}
+.slick-dots li button:before{
+    display: none;
+}
+.slick-dots {
+    position: absolute;
+    bottom: -50px !important;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+    display: block;
+}
+.support-system3 .values-right{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+.support-system3 .values-right ul{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.content.values-right ul li{
+    width: 15%;
+    max-width: 130px;
+}
+
+
+.support-system4 .Therapist-Match-content{
+    flex-flow: row;
+    padding:0 90px;
+}
+.support-system4 .left-box{
+    margin:0 25px 0 0px;
+    width: 50%;
+}
+.support-system4 .right-box{
+    margin: 0 0px 0 25px;
+    width: 50%;
+}
+
+.support-system4 .left-box ul li{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 36px;
+}
+.support-system4 .left-box ul li h6 {
+    margin-bottom: 0px;
+    font-size: 22px;
+    line-height: 1  ;
+    min-width: 100px;
+}
+
+.support-system4 .left-box ul li p{
+    margin-bottom: 0;
+    font-size: 22px;
+}
+.support-system4 .left-box .content{
+    width: 100%;
+}
+.support-system5 .page-header h3{
+    text-align: center;
+}
+.support-system5 .button-wrapper {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.support-system6 h3{
+    font-size: 42px;
+    margin-bottom: 30px;
+}
+.support-system6 p{
+    font-size: 21px;
+    margin-bottom: 30px;
+}
+.open-roles-section .openroll-item{
+    width: 100%;
+    margin: 0;
+}
+.open-roles-section .openroll-item h4{
+    margin-bottom: 10px;
+}
+.open-roles-section .items {
+    margin-right: 50px;
+    margin-left: 0;
+}
+
+
+
+/*Faq Start*/
+ul.accordion-list {
+  position: relative;
+  display: block;
+  width: 100%;
+}
+ul.accordion-list li {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  background-color: #FFF;
+  padding: 0px 10px 0 10px;
+  border-top: 1px solid #909090;
+  cursor: pointer;
+}
+ul.accordion-list li:last-child{
+    border-bottom: 1px solid #909090;
+}
+ul.accordion-list li.active h3:after {
+  transform: rotate(180deg);
+}
+ul.accordion-list li h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+ul.accordion-list li h3:after {
+   content: "";
+    position: absolute;
+    right: 9px;
+    top: 32px;
+    color: #1bcdb7;
+    transition: all 0.3s ease-in-out;
+    border-top: 12px solid #883DBF;
+    border-bottom: 8px solid transparent;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    width: 0;
+}
+ul.accordion-list li div.answer {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+}
+ul.accordion-list p{
+    margin-bottom: 20px;
+    font-size: 21px;
+}
+
+
+
+
+
+
+
+.contact-section1 .banner-left {
+    width: 45%;
+    padding-left: calc(((100% - 1470px) / 2) + 0.75rem);
+}
+.contact-section1 .banner-right {
+   width: 40%;
+}
+.contact-section1 .dFlx{
+    justify-content: space-between;
+}
+.contact-section1 .banner-right{
+    background-position: right top !important;
+}
+.contact-box {
+    justify-content: space-around;
+    flex-flow: row wrap;
+
+}
+.client_care_box {
+    width: 40%;
+    max-width: 482px;
+    margin-bottom:70px;
+}
+.client_image {
+    background-position: top center !important;
+    background-repeat: no-repeat !important;
+    padding-bottom: 15px;
+    background-size: contain !important;
+}
+.client_image img{
+    margin: 0 auto -15px auto;
+}
+.client_care_box h3{
+    font-size: 42px;
+    text-align: center;
+}
+.client_care_box h3 span{
+    background: #1bcdb7;
+    color: #fff;
+    padding: 5px 12px 17px 12px;
+    border-radius: 5px;
+    box-shadow: 0px 7px 8px #00000021;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    display: block;
+}
+.client_care_box p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 28px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin: 30px auto;
+
+}
+.client_care_box .btn{
+    width: 212px;
+    display: block;
+    margin: 0 auto;
+}
+
+.startjourny .slick-dots {
+    bottom: -33px !important;
+}
+.slide-arrow {
+    position: absolute;
+    top: 105%;
+    margin-top: 0;
+    z-index: 99;
+}
+.startjourny .slide-arrow {
+    top: 100%;
+}
+.slick-slider6 .slide-arrow {
+    top: 105%;
+    }
+.prev-arrow {
+    left: 0px;
+    width: 0;
+    height: 0;
+    border-left: 0 solid transparent;
+    border-right: 20px solid #E1D2F8;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    background: transparent !important;
+    cursor: pointer;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+.next-arrow{
+  left: 30px;
+  width: 0;
+  height: 0;
+  border-right: 0 solid transparent;
+  border-left: 20px solid #E1D2F8;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  background: transparent;
+  cursor: pointer;
+  transition: all .3s ease;
+  -webkit-transition: all .3s ease;
+}
+.prev-arrow:hover {
+    border-left: 0 solid transparent;
+    border-right: 20px solid #883DBF;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    background: transparent !important;
+    cursor: pointer;
+}
+.next-arrow:hover{
+  border-right: 0 solid transparent;
+  border-left: 20px solid #883DBF;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  background: transparent;
+  cursor: pointer;
+}
+
+.startjourny .slick-dots li button {
+    border: 1px solid #883dbf !important;
+}
+.startjourny .slick-dots li button:hover, .startjourny .slick-dots li.slick-active button {
+    background: #883dbf !important;
+}
+.slick-dotted.slick-slider {
+    margin-bottom: 30px;
+}
+.slick-dots{
+    z-index: 9;
+}
+
+.meetyoursupportsys .items{
+    margin-bottom: 30px;
+}
+
+/*.slick-slider4 .prev-arrow{
+    top: 50%;
+    left: 0;
+}
+.slick-slider7 .prev-arrow {
+    top: 50%;
+    left: -40px;
+}
+.slick-slider4 .next-arrow, .slick-slider7 .next-arrow {
+    right: 0;
+    left: auto;
+    top: 50%;
+}*/
+.slick-slider4 .slick-dots, .slick-slider7 .slick-dots {
+    bottom: -25px !important;
+}
+.open-roles-section .items{
+    margin-bottom: 20px;
+}
+.open-roles-section .items a{
+    background: #fff;
+}
+
+
+
+.our-tharapist-banner .banner-right {
+    width: 50%;
+    text-align: center;
+    padding-left: 3%;
+    background-position: top center !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+.membership1 h1, .membership1 p{
+    color: #fff;
+}
+.membership1 .banner-left {
+    width: 50%;
+}
+.membership1 .banner-right {
+    width: 50%;
+    margin-top: 40px;
+    background-position: right top !important;
+}
+
+ul.slick-dots {
+    max-width: calc(2560px - 0.75rem);
+}
+.meetyoursupportsys ul.slick-dots {
+    max-width: 100% !important;
+}
+
+.open-roles-section .slick-dots{
+    max-width: calc(100% - 50px);
+}
+
+.membership2 .right-box{
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+.membership2 .content p{
+    font-weight: 400;
+font-size: 30px;
+line-height: 33px;
+letter-spacing: 0.03em;
+
+color: #000000;
+}
+.membership2 .page-header h3{
+    text-align: left;
+}
+.membership2 .content.values-right ul li {
+    width: 15%;
+    max-width: 193px;
+}
+.membership4 .Therapist-Match-content {
+    padding: 0 0px ;
+}
+.membership4 .right-box{
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+}
+.membership4 .right-box img{
+    margin: 0 auto;
+}
+.membership4 .left-box ul li{
+    list-style: disc;
+    display: list-item !important;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.membership4 .left-box ul{
+    margin-left: 17px;
+}
+.membership4 h3{
+    color: #1BCDB7;
+    margin-bottom: 40px;
+}
+
+.membership7 .btnarea a {
+    margin-right: 20px;
+}
+.membership7 .btnarea{
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+.membership7 .page-header h3{
+    text-align: center;
+}
+.membership7 .btnarea a:last-child{
+    margin-right: 0;
+}
+.membership4 .Therapist-Match-content{
+    align-items: flex-end;
+}
+.membership4 .left-box ul li:last-child{
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+.startjourny ul.slick-dots {
+    width: 81%;
+}
+
+.WereDiveThru ul.slick-dots {
+    width: 81%;
+}
+
+.about-slide{
+    padding-left: calc(((100% - 1470px) / 2) + 0.75rem);
+}
+.Animals-Inner .slide-arrow{
+    top: 100%;
+}
+.career2 h3{
+    text-align: left;
+}
+.press3 h3{
+    margin-top: -30px !important;
+}
+
+.WereDiveThru .slick-slider5 ul.slick-dots {
+    width: 100% ;
+}
+
+
+
+.app-section1 .banner-left h1 span{
+    background: transparent;
+    color: #1BCDB7;
+    box-shadow: none;
+}
+.app-section1 .banner-left h1 span:hover{
+    background: transparent;
+    color: #BDF6E4;
+    box-shadow: none;
+}
+.app-section2 h3{
+    color: #000;
+}
+.app-section2 .left-box {
+    width: 64%;
+}
+.app-section2 .right-box {
+    width: 36%;
+}
+
+.app-section3 .left-box ul li {
+    list-style: auto;
+    display: list-item !important;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.app-section3 .left-box ul li h5{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    background: #883DBF;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 8px 15px;
+    margin-bottom: 10px;
+}
+.app-section3 .left-box ul li p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.03em;
+    color: #585758;
+}
+.app-section3 .left-box h3 {
+    color: #FFFFFF;
+    background: #883DBF;
+    border-radius: 5px;
+    padding: 15px 50px 15px 0;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 53px;
+}
+.app-section3 .left-box h3:after{
+    background: #883DBF;
+    position: absolute;
+    top: 0;
+    right: 94%;
+    height: 100%;
+    width: 300000px;
+    content: "";
+    z-index: -1;
+}
+.app-section3{
+    overflow: hidden;
+}
+.app-section3 .Therapist-Match-content {
+    align-items: center;
+}
+.going-thru-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+.going-thru-row:nth-of-type(odd){
+    flex-flow: row-reverse;
+}
+.thru-left {
+    width: 53%;
+}
+.thru-right{
+    width: 47%;
+}
+.going-thru-row:nth-of-type(odd) .thru-right{
+    padding-right: 5%;
+    margin-left: auto;
+    margin-right: 0;
+}
+.going-thru-row:nth-of-type(even) .thru-right{
+    padding-left: 5%;
+    margin-left: 0;
+    margin-right: auto;
+}
+.going-thru-row:nth-of-type(even) .thru-right img{
+    margin-left: auto;
+    margin-right: 0;
+}
+.going-thru-row:nth-of-type(odd) .thru-right img{
+    margin-left: 0;
+    margin-right: auto;
+}
+
+.thru-left h3{
+    margin-bottom: 30px;
+}
+.thru-left p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 28px;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.app-section4 .page-header h3{
+    text-align: center;
+}
+.app-section5 h4{
+    text-align: center;
+}
+
+.app-section6 .Therapist-Match-content {
+    flex-flow: row;
+}
+.app-section6 .left-box {
+    margin: 0 25px 0 0px;
+    width: 50%;
+}
+.app-section6 .right-box {
+    width: 50%;
+    margin: 0 0px 0 25px;
+    padding: 0;
+}
+
+.contact-section1 .banner-right{
+    background-position: right center !important;
+}
+.blog-section1 h1{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+.blog-wrapper{
+    justify-content: space-between;
+}
+
+.blog-categories li a {
+    background: #E1D2F8;
+    border-radius: 35px;
+    padding: 10px 40px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    display: block;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+.blog-categories li a:hover{
+    background: #883DBF;
+    color: #fff;
+}
+.blog-categories li {
+    margin: 10px 0;
+}
+ul.blog-categories {
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.blog-left {
+    width: 70%;
+    flex-flow: row wrap;
+}
+.blog-right {
+    width: 30%;
+}
+.blogBox {
+    width: 37%;
+    margin-right: 13%;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    background: #fff;
+    margin-bottom: 45px;
+    border-radius: 20px 20px 10px 10px;
+}
+.blogBox .blog-contet{
+    padding: 15px 10px;
+}
+.blog-contet h5{
+    margin-bottom: 18px;
+}
+.blog-contet h5 a{
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.blog-contet p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    color: #585758;
+}
+
+.popular-content .blog-contet a.category-common{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #883DBF;
+    font-family: 'Archivo', sans-serif;
+}
+.pb-30{
+    padding-bottom: 45px;
+}
+.blog-right h4{
+    margin-bottom: 40px;
+}
+.popular-content .blog-contet h5{
+    margin: 15px 0;
+}
+.popular-content .blog-contet h5 a{
+    font-style: normal;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 21px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    display: block;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+.popular-content .blog-contet a.divethru-taem {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    letter-spacing: 0.05em;
+    color: #909090;
+    font-family: 'Archivo', sans-serif;
+}
+.blog-image-wrap{
+    width: 100%;
+}
+.blog-image-wrap a{
+    display: block;
+}
+.blog-image-wrap a img{
+    width: 100%;
+}
+.popular-content .blog-contet{
+    margin-bottom: 30px;
+    padding: 15px;
+    background: #FFFFFF;
+    border: 1px solid #EAEAEA;
+    box-shadow: 0px 4px 4px rgba(217, 217, 217, 0.5);
+    border-radius: 10px;
+}
+
+.health-guide .blogBox {
+    width: 23.5%;
+    margin-right: 0%;
+    margin-bottom: 0;
+}
+.health-guide{
+    justify-content: space-between;
+}
+.health-guide .blogBox .blog-contet h5 a{
+    font-style: normal;
+    font-family: 'Archivo', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+.blog-contet a{
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+
+.health-guide .blogBox .blog-contet h5 a:hover, .blog-contet a:hover, .popular-content .blog-contet h5 a:hover{
+    color: #883dbf;
+}
+.health-guide .blogBox .blog-contet p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    letter-spacing: 0.04em;
+    color: #585758;
+}
+
+.Recent-Posts{
+    flex-flow: row wrap;
+}
+.Recent-Posts .blogBox {
+    margin-right: 3.5%;
+    width: 31%;
+}
+.Recent-Posts .blogBox:nth-of-type(3n + 0){
+    margin-right: 0;
+}
+.form-wrapper input{
+    width: 388px;
+    height: 56px;
+    left: 80px;
+    top: 4583px;
+    padding: 15px;
+    background: #FFFFFF;
+    border: 1px solid #1BCDB7;
+    border-radius: 35px;
+}
+.form-wrapper {
+    display: flex;
+}
+.form-wrapper .btn{
+    max-width: 207px;
+    margin-left: 15px;
+}
+.Recent-Posts-section .page-header h3{
+    margin-bottom: 0;
+    color: #000;
+}
+.Recent-Posts-section .page-header{
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+.Mental-Health-Guides h3{
+    margin-bottom: 0;
+}
+.Mental-Health-Guides{
+    margin-bottom: 60px;
+}
+.Recent-Posts-section{
+    background: #fff;
+}
+.blog-image-wrap a{
+    overflow: hidden;
+
+}
+.blogBox{
+    overflow: hidden;
+}
+.blog-image-wrap a img {
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+}
+.blog-image-wrap a:hover img{
+    transform: scale(1.1);
+}
+.blog-category-section1{
+    background: #BDF6E4;
+}
+.blog-category-section1 .banner-right {
+    background-position: center center !important;
+}
+.blog-category-section1 .banner-left h1, .blog-category-section1 .banner-left p{
+    color: #000000;
+}
+
+.Browse-category h3{
+    text-align: center;
+    color: #000;
+}
+.therapist-details .inner-banner-sec-left h1{
+    margin-bottom: 20px;
+}
+.therapist-details .inner-banner-sec-left h5{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    color: #000000;
+    margin-bottom: 20px;
+    font-family: 'Archivo', sans-serif;
+}
+.therapist-details .inner-banner-sec-left p{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 1.4;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.responsive-table li {
+  border-radius: 3px;
+  padding: 10px 12%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.table-row p{
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    width: 100%;
+}
+.table-row p span{
+    display: block;
+}
+.responsive-table .table-header {
+    font-family: 'Archivo', sans-serif;
+    background-color: #1BCDB7;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.4;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+.responsive-table .table-row {
+  background-color: #ffffff;
+/*  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);*/
+}
+.col{
+    flex-basis: 33.333%;
+}
+/*.responsive-table .col-1 {
+  flex-basis: 10%;
+}
+.responsive-table .col-2 {
+  flex-basis: 40%;
+}
+.responsive-table .col-3 {
+  flex-basis: 25%;
+}
+.responsive-table .col-4 {
+  flex-basis: 25%;
+}*/
+
+@media all and (max-width: 480px) {
+  .responsive-table .table-header {
+    display: none;
+  }
+  .responsive-table li {
+    display: block;
+  }
+  .responsive-table .col {
+    flex-basis: 100%;
+  }
+  .responsive-table .col {
+    display: flex;
+    padding: 10px 0;
+    flex-flow: row wrap;
+  }
+  .responsive-table .col:before {
+    color: #6C7A89;
+    padding-right: 10px;
+    content: attr(data-label);
+    flex-basis: 100%;
+    text-align: center;
+  }
+}
+
+video{
+    width: 100%;
+    position: relative;
+}
+.workBox {
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 4px 4px rgb(217 217 217 / 75%);
+    border-radius: 20px;
+    width: 48%;
+}
+.work-width {
+    justify-content: space-between;
+}
+.work-width h4{
+    font-family: 'Archivo', sans-serif;
+    background: #883DBF;
+    border-radius: 20px 20px 0px 0px;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 33px;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 15px 15px;
+}
+.work-width ul{
+    padding: 30px 30px 30px 45px;
+}
+.work-width ul li{
+    font-family: 'Archivo', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    list-style: disc;
+    margin-bottom: 10px;
+}
+.video-wrap{
+    margin-top: 60px;
+    margin-top: 60px;
+}
+
+
+/* END Optional styles */
+.video-container {
+  border-radius: 4px;
+  margin-bottom: 60px;
+  margin-top: 60px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.video-container .video-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.video-container video {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+}
+
+.play-button-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  pointer-events: none;
+}
+.play-button-wrapper #circle-play-b {
+  cursor: pointer;
+  pointer-events: auto;
+}
+.play-button-wrapper #circle-play-b svg {
+  width: 100px;
+  height: 100px;
+  fill: #fff;
+  stroke: #fff;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
+  opacity: 0.9;
+}
+
+.focus-box h4{
+    margin-bottom: 50px;
+    width: 100%;
+    font-family: 'Archivo', sans-serif;
+}
+.focus-box .btn{
+    width: 22%;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.focus-box {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.interested-in-content h3{
+    text-align: center;
+    width: 100%;
+    color: #fff;
+}
+section.therapist-details2 {
+    border-bottom: 0.7px solid #585758;
+}
+
+
+.blog-single-banner{
+    background: #BDF6E4;
+}
+.blog-single-banner img{
+    margin: 0 auto;
+}
+.blog-single-image-wrap{
+    width: 100%;
+}
+.blog-single-content{
+    background: #BDF6E4;
+}
+.blog-single-content .container{
+    background: #fff;
+}
+.admin-bar{
+    justify-content: space-between;
+}
+.left-content-single p {
+    background: #883DBF;
+    padding: 10px 15px;
+    margin-left: -15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.right-content-single p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    text-align: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.right-content-single p:last-child{
+    margin-bottom: 0;
+}
+.right-content-single{
+    align-items: center;
+    padding: 25px 30px;
+}
+ .single-main-content h1{
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 69px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #000000;
+    margin-bottom: 40px;
+}
+.single-main-content h6{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 0.03em;
+    color: #883DBF;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.single-main-content p{
+    margin-bottom: 25px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+.single-main-content h4{
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 37px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.single-main-content h5{
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #000000;
+}
+.single-main-content ul{
+    margin: 0 0 20px 20px;
+}
+.single-main-content ul li{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.05em;
+    color: #000000;
+    list-style: disc;
+    margin-bottom: 10px;
+}
+.single-main-content ul li:last-child{
+    margin-bottom: 0;
+}
+.single-main-content ul li a{
+    font-weight: bold;
+}
