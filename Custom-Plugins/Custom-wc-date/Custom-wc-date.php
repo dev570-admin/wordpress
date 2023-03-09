@@ -1,11 +1,11 @@
 <?php
 /**
  * Plugin Name: Custom-wc-date
- * Plugin URI: https://www.example.com/
+ * Plugin URI: https://github.com/dev570-admin/wordpress
  * Description: Adds a custom date and select option field to the WooCommerce checkout page 
  * Version: 1.0.0
  * Author: Surajit Mridha
- * Author URI: https://www.example.com/
+ * Author URI: https://github.com/dev570-admin/wordpress
  */
 
 // Add the custom date field to the checkout page

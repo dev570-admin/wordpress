@@ -1,11 +1,11 @@
 <?php
 /**
 * Plugin Name: woocommerce addtional field
-* Plugin URI: https://www.wordpress.com/
+* Plugin URI: https://github.com/dev570-admin/wordpress
 * Description: In this plugin two additional field having the extra option in woocoomerce setting.
 * Version: 1.0
 * Author: Surajit
-* Author URI: https://www.wordpress.com/
+* Author URI: https://github.com/dev570-admin/wordpress
 
 //Surajit@1234
 
