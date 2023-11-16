@@ -1,0 +1,2087 @@
+/*=============     1920 css start  =============*/
+@media(max-width: 1920px){
+.startjourny .slick-sliderWrp .slick-slider{
+  width: 2000px;
+}
+.startjourny ul.slick-dots {
+    width: 83.7%;
+}
+.WereDiveThru .slick-sliderWrp .slick-slider{
+  width: 2000px;
+}
+.WereDiveThru ul.slick-dots {
+    width: 83.7%;
+}
+
+}
+/*=============   	1680 css start	=============*/
+@media(max-width: 1680px){
+.main-slider .banner-right .banner-user img {
+    width: 602px;
+}
+.main-slider .banner-right .banner-user {
+    top: auto;
+    right: 14%;
+    bottom: 0;
+}
+
+.footer-up .footerup-uerarea .f-u-user {
+    right: 5%;
+}
+ .footer-up .footerup-uerarea .f-u-user img {
+    width: 800px;
+}   
+.startjourny .slick-sliderWrp .slick-slider, .WereDiveThru .slick-sliderWrp .slick-slider {
+    width: 1800px;
+}  
+
+.inner-banner-sec .inner-banner-sec-right .banner-user img {
+    right: 12%;
+}
+ 
+.whyworkforus .whyworkforus-right .whyworkforus-usera {
+    right: 7%;
+}  
+.Sophie-Gray-section{
+    padding-bottom: 60px;
+} 
+.startjourny ul.slick-dots, .WereDiveThru ul.slick-dots {
+    width: 87.7%;
+} 
+}
+/*=============   	1680 css End		=============*/
+
+
+
+/*=============   	1600 css start	=============*/
+@media(max-width: 1600px){
+.main-slider .banner-right .banner-user img {
+    width: 640px;
+}
+    .main-slider .banner-right .banner-user {
+    top: auto;
+    right: 10%; bottom: 0;
+}
+
+.footer-up .footerup-uerarea .f-u-user {
+    right: 4%;
+}
+.footer-up .footerup-uerarea .f-u-user img {
+    width: 769px;
+}   
+.startjourny .slick-sliderWrp .slick-slider, .WereDiveThru .slick-sliderWrp .slick-slider {
+    width: 1800px;
+}
+
+.inner-banner-sec .inner-banner-sec-right .banner-user img {
+    right: 9%;
+}
+ 
+.whyworkforus .whyworkforus-right .whyworkforus-usera {
+    right: 5%;
+}   
+
+
+.container {
+    max-width: 1400px;
+}
+.meetyoursupportsys-item {
+    margin: 0 25px;
+}
+.meetyoursupportsys .dFlx {
+    margin: 0 -25px;
+}
+.blog .bloginnertext {
+    margin: 0 -25px;
+}
+.blog .bloginnertext .blog-inner {
+    padding: 0 25px;
+}
+.blog .bloginnertext .blog-inner a {
+    margin-bottom: 60px;
+}
+.blog .bloginnertext .blog-inner a {
+    margin-bottom: 60px;
+}
+.blog .page-header, .meetourtherapists .page-header {
+    margin-bottom: 50px;
+}
+.startjourny .slick-sliderWrp{
+    padding-left: calc(((100% - 1400px) / 2) + 0.75rem);
+} 
+.about-slide{
+    padding-left: calc(((100% - 1400px) / 2) + 0.75rem);
+}
+.values-left {
+    padding-left: calc(((100% - 1400px) / 2) + 0.75rem);
+}
+.values-right {
+    padding-right: calc(((100% - 1400px) / 2) + 0.75rem);
+} 
+.contact-section1 .banner-left {
+    padding-left: calc(((100% - 1400px) / 2) + 0.75rem);
+}
+.therapist-bottom .page-header {
+    padding-left: calc(((100% - 1400px) / 2) + 0.75rem);
+}  
+.meetyoursupportsys .para {
+    margin-bottom: 70px;
+}
+.startjourny ul.slick-dots, .WereDiveThru ul.slick-dots {
+    width: 82.5%;
+}  
+}
+/*=============   	1600 css End		=============*/
+
+
+
+/*=============   	1440 css start	=============*/
+@media(max-width: 1440px){
+.main-slider .banner-right .banner-user img {
+    width: 595px;
+}
+    .main-slider .banner-right .banner-user {
+    top: auto;
+    right: 10%; bottom: 0;
+}
+
+    .footer-up .footerup-uerarea .f-u-user {
+    right: 0;
+}
+ .footer-up .footerup-uerarea .f-u-user img {
+    width: 769px;
+}   
+.startjourny .slick-sliderWrp .slick-slider, .WereDiveThru .slick-sliderWrp .slick-slider {
+    width: 1800px;
+}
+     .aside .aside-contents .nav-item ul li a {
+    padding: 10px 0;
+    font-size: 20px;
+}
+ .aside.in {
+    padding: 0 20px;
+}   
+.aside .aside-contents .nav-item span {
+    font-size: 18px;
+    margin-bottom: 15px;
+}    
+/*   .WereDiveThru .slick-sliderWrp {
+    overflow: hidden !important;
+} */
+    .inner-banner-sec .inner-banner-sec-right .banner-user img {
+    right: 7%;
+}
+ 
+    .whyworkforus .whyworkforus-right .whyworkforus-usera {
+    right: 2%;
+}
+.startjourny .slick-sliderWrp{
+    padding-left: calc(((100% - 1300px) / 2) + 0.75rem);
+}    
+.values-left {
+    padding-left: calc(((100% - 1300px) / 2) + 0.75rem);
+}
+.values-right {
+    padding-right: calc(((100% - 1300px) / 2) + 0.75rem);
+} 
+.contact-section1 .banner-left {
+    padding-left: calc(((100% - 1300px) / 2) + 0.75rem);
+} 
+.therapist-bottom .page-header {
+    padding-left: calc(((100% - 1300px) / 2) + 0.75rem);
+}  
+.about-slide{
+    padding-left: calc(((100% - 1300px) / 2) + 0.75rem);
+}
+.container-big {
+    padding-left: 15px;
+    padding-right: 15px;
+}   
+.aside .aside-contents {
+    max-width: 1260px;
+}  
+
+.container {
+    max-width: 1300px;
+}
+.meetyoursupportsys-item {
+    margin: 0 25px;
+}
+.meetyoursupportsys .dFlx {
+    margin: 0 -25px;
+}
+.blog .bloginnertext {
+    margin: 0 -25px;
+}
+.blog .bloginnertext .blog-inner {
+    padding: 0 25px;
+}
+.blog .bloginnertext .blog-inner a {
+    margin-bottom: 60px;
+}
+.blog .bloginnertext .blog-inner a {
+    margin-bottom: 60px;
+}
+.blog .page-header, .meetourtherapists .page-header {
+    margin-bottom: 50px;
+}
+/*.WereDiveThru .slick-sliderWrp .slick-slider {
+    width: 1600px;
+}*/
+.values-left h2 {
+    font-size: 42px;
+}
+h6 {
+    font-size: 22px;
+    }
+.our-tharapist-banner .banner-left h1 {
+    font-size: 42px;
+    line-height: 58px;
+}
+.pb-115 {
+    padding-bottom: 100px;
+}
+.pt-115 {
+    padding-top: 100px;
+}
+.open-roles-section .items {
+    margin-right: 40px;
+}
+.support-system4 .Therapist-Match-content {
+    padding: 0 40px;
+}
+.support-system6 h3 {
+    font-size: 40px;
+    line-height: 1.5;
+}
+.therapist-bottom .footerup-uerarea {
+    width: 45%;
+}
+.support-system6 .page-header{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.support-system6 .dFlx{
+    align-items: flex-end;
+}
+.contact-section1 .banner-right {
+    width: 50%;
+}
+.membership2 .content p, .thru-left p {
+    font-weight: 400;
+    font-size: 21px;
+}
+.membership4 .left-box ul li{
+    font-size: 18px;
+}
+.startjourny ul.slick-dots, .WereDiveThru ul.slick-dots {
+    width: 75.4%;
+}
+
+.blogBox {
+    width: 40%;
+    margin-right: 10%;
+}
+.therapist-details .inner-banner-sec-left p {
+    font-size: 22px;
+}
+}
+/*=============   	1440 css End		=============*/
+
+@media(max-width: 1400px){
+.startjourny .slick-sliderWrp .slick-slider, .WereDiveThru .slick-sliderWrp .slick-slider {
+    width: 1500px;
+}
+.startjourny ul.slick-dots, .WereDiveThru ul.slick-dots {
+    width: 89.1%;
+}
+.therapist-details .inner-banner-sec-right{
+    display: flex;
+    align-items: flex-end;
+}
+.therapist-details .inner-banner-sec-right img{
+    height: auto;
+}
+}
+
+/*=============   	1366 css start	=============*/
+@media(max-width: 1366px){
+.container{
+    width: 98%;
+}
+h1 {
+    font-size: 48px;
+    }
+h3 {
+    font-size: 40px;
+    line-height: 1.5;
+}
+.main-slider .banner-right .banner-user img {
+    width: 516px;
+}
+    .main-slider .banner-right .banner-user {
+    top: auto;
+    right: 10%; bottom: 0;
+}
+
+    .footer-up .footerup-uerarea .f-u-user {
+    right: 0;
+}
+ .footer-up .footerup-uerarea .f-u-user img {
+    width: 740px;
+}   
+
+     .aside .aside-contents .nav-item ul li a {
+    padding: 10px 0;
+    font-size: 20px;
+}
+ .aside.in {
+    padding: 0 20px;
+}   
+.aside .aside-contents .nav-item span {
+    font-size: 18px;
+    margin-bottom: 15px;
+}   
+
+ h2 {
+    font-size: 40px;
+}   
+.inner-banner-sec .inner-banner-sec-right .banner-user img {
+    right: 8%;
+    width: 550px;
+}    
+ .WereDiveThru .page-header p {
+    font-size: 20px;
+    }
+    .WereDiveThru .WereDiveThru-inner h4 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+ .whyworkforus .page-header h3, .support-system6 h3 {
+    font-size: 30px;
+}   
+.whyworkforus .page-header p {
+    font-size: 20px;
+}    
+ .whyworkforus .whyworkforus-right .whyworkforus-usera {
+    right: 6%;
+}   
+ .whyworkforus .whyworkforus-right .whyworkforus-usera img {
+    width: 550px;
+}   
+ .whyworkforus .whyworkforus-left ul li {
+    font-size: 18px;
+}   
+.interested-in-connecting p {
+    font-size: 34px;
+}
+
+.about-banner .banner-left h1 {
+    font-size: 60px;
+} 
+.we-are-divethru h6 {
+    font-size: 28px;
+}  
+.MeetOurTeamSection .therapists ul li h6 {
+    font-size: 22px;
+    }
+.MeetOurTeamSection .therapists ul li p {
+    font-size: 18px;
+    } 
+.MeetOurTeamSection .therapists ul li img {
+    max-width: 200px;
+    width: 100%;
+}
+.main-footer .f-left .footer-link ul li a {
+    font-size: 16px;
+}
+.aside .aside-contents {
+    max-width: 1060px;
+}
+
+
+.container {
+    max-width: 1200px;
+}
+.meetyoursupportsys-item {
+    margin: 0 30px;
+}
+.meetyoursupportsys .dFlx {
+    margin: 0 -30px;
+}
+.blog .bloginnertext {
+    margin: 0 -30px;
+}
+.blog .bloginnertext .blog-inner {
+    padding: 0 30px;
+}
+.blog .bloginnertext .blog-inner a {
+    margin-bottom: 60px;
+}
+.blog .bloginnertext .blog-inner a {
+    margin-bottom: 60px;
+}
+.blog .page-header, .meetourtherapists .page-header {
+    margin-bottom: 50px;
+}
+.startjourny .slick-sliderWrp{
+    padding-left: calc(((100% - 1200px) / 2) + 0.75rem);
+}  
+.values-left {
+    padding-left: calc(((100% - 1200px) / 2) + 0.75rem);
+}
+.about-slide{
+    padding-left: calc(((100% - 1200px) / 2) + 0.75rem);
+}
+.values-right {
+    padding-right: calc(((100% - 1200px) / 2) + 0.75rem);
+}
+.contact-section1 .banner-left {
+    padding-left: calc(((100% - 1200px) / 2) + 0.75rem);
+}
+.therapist-bottom .page-header{
+    padding-left: calc(((100% - 1200px) / 2) + 0.75rem);
+}  
+.pb-115 {
+    padding-bottom: 90px;
+}
+.pt-115 {
+    padding-top: 90px;
+}
+.areas-button-wrap .btn {
+    width: 212px;
+    margin: 8px;
+    height: 68px;
+    font-size: 18px;
+    padding: 0 10px;
+}
+.main-head .btn{
+    width: auto;
+}
+.support-system4 .left-box ul li h6 {
+    font-size: 18px;
+    min-width: 90px;
+    }
+.support-system4 .left-box ul li p {
+    font-size: 18px;
+}
+.therapist-bottom .footerup-uerarea {
+    width: 48%;
+}
+.btn{
+    font-size: 20px;
+}
+.support-system6 .page-header{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.support-system6 .dFlx{
+    align-items: flex-end;
+}
+.client_care_box h3 {
+    font-size: 36px;
+    }
+ul.accordion-list p, .support-system6 p, .client_care_box p, .membership2 .content p, .thru-left p{
+    font-size: 18px;
+    line-height: 1.4;
+}
+.support-system4 .left-box ul li {
+    margin-bottom: 20px;
+}
+.startjourny ul.slick-dots, .WereDiveThru ul.slick-dots {
+    width: 85.1%;
+}
+.app-section3 .left-box h3 {
+    padding: 15px 15px 15px 0
+}
+.blog-categories li a {
+    padding: 10px 25px
+}
+.responsive-table .table-header {
+    font-size: 18px;
+}
+.table-row p {
+    font-size: 16px;
+}
+.work-width h4 {
+    font-size: 24px
+    }
+.work-width ul li {
+    font-size: 22px;
+}
+.blog-4 .footerup-uerarea{
+    width: 40%;
+}
+.single-main-content h1 {
+    font-size: 42px;
+    line-height: 52px;
+    }
+.single-main-content h6 {
+    font-size: 20px;
+}
+.single-main-content p, .single-main-content ul li {
+    font-size: 18px;
+}
+.single-main-content h4 {
+    font-size: 26px;
+}
+.single-main-content h5 {
+    font-size: 22px;
+}
+.right-content-single p {
+    font-size: 18px;
+}
+.left-content-single p{
+    font-size: 18px;
+}
+}
+/*=============   	1366 css End		=============*/
+
+
+
+/*=============   	1280 css start	=============*/
+@media(max-width: 1280px){
+.main-slider .banner-right .banner-user img {
+    width: 516px;
+}
+    .main-slider .banner-right .banner-user {
+    top: auto;
+    right: 10%; bottom: 0;
+}
+ .footer-up .footerup-uerarea .f-u-user img {
+    width: 650px;
+}
+    .footer-up .footerup-uerarea .f-u-user {
+    right: 1%;
+}
+    .aside .aside-contents .nav-item ul li a {
+    padding: 10px 0;
+    font-size: 16px;
+}
+ .aside.in {
+    padding: 0 20px;
+}   
+.aside .aside-contents .nav-item span {
+    font-size: 16px;
+    margin-bottom: 15px;
+}    
+ 
+ h2 {
+    font-size: 48px;
+}   
+.inner-banner-sec .inner-banner-sec-right .banner-user img {
+    right: 8%;
+    width: 550px;
+}    
+ .WereDiveThru .page-header p {
+    font-size: 20px;
+    }
+    .WereDiveThru .WereDiveThru-inner h4 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+ .whyworkforus .page-header h3, .support-system6 h3 {
+    font-size: 30px;
+}   
+.whyworkforus .page-header p {
+    font-size: 20px;
+}    
+ .whyworkforus .whyworkforus-right .whyworkforus-usera {
+    right: 6%;
+}   
+ .whyworkforus .whyworkforus-right .whyworkforus-usera img {
+    width: 550px;
+}   
+ .whyworkforus .whyworkforus-left ul li {
+    font-size: 18px;
+}   
+.about-banner .banner-left h1 {
+    font-size: 50px;
+} 
+.WereDiveThru .slick-sliderWrp .slick-slider {
+    width: 1400px;
+}
+.startjourny ul.slick-dots, .WereDiveThru ul.slick-dots {
+    width: 82.1%;
+}
+
+}
+/*=============   	1280 css End		=============*/
+
+/*=============     1200 css start      =============*/
+@media(max-width:1200px) {
+.container{
+    width: 94%;
+}
+.startjourny .slick-sliderWrp{
+    padding-left: calc(((100% - 94%) / 2) + 0.75rem);
+}
+.about-slide{
+    padding-left: calc(((100% - 94%) / 2) + 0.75rem);
+}
+.values-left {
+    padding-left: calc(((100% - 94%) / 2) + 0.75rem);
+}
+.values-right {
+    padding-right: calc(((100% - 94%) / 2) + 0.75rem);
+} 
+.contact-section1 .banner-left {
+    padding-left: calc(((100% - 94%) / 2) + 0.75rem);
+}
+.therapist-bottom .page-header {
+    padding-left: calc(((100% - 94%) / 2) + 0.75rem);
+}
+
+.support-system4 .Therapist-Match-content {
+    padding: 0 0px;
+}
+.startjourny .slick-sliderWrp .slick-slider, .WereDiveThru .slick-sliderWrp .slick-slider {
+    width: 1300px;
+}
+.startjourny ul.slick-dots, .WereDiveThru ul.slick-dots {
+    width: 88.5%;
+}
+.therapist-details .inner-banner-sec-right{
+    min-height: 500px;
+}
+}
+/*=============     1200 css End        =============*/
+@media(max-width: 1180px){
+.startjourny ul.slick-dots, .WereDiveThru ul.slick-dots {
+    width: 87%;
+}
+}
+
+@media(max-width: 1080px){
+.startjourny ul.slick-dots, .WereDiveThru ul.slick-dots {
+    width: 80%;
+}
+.blogBox {
+    width: 46%;
+    margin-right: 4%;
+}
+ul.blog-categories {
+    justify-content: center;
+    flex-flow: row wrap;
+}
+ul.blog-categories li{
+    margin: 5px 10px;
+}
+.blog-categories li a {
+    padding: 10px 15px
+}
+
+}
+
+
+/*=============   	1024 css start		=============*/
+@media(max-width:1024px) {
+
+h1 {
+    font-size: 48px;
+}
+ h3 {
+    font-size: 40px;
+}   
+.btn {
+    font-size: 18px;
+    padding: 15px 20px;
+}    
+.main-head .headbtnarea ul li a.btn-login {
+    font-size: 18px;
+    margin-left: 18px;
+}
+.main-slider .banner-right .banner-user img {
+    width: 450px;
+}
+    .main-slider .banner-right .banner-user {
+    top: auto;
+    right: 7%;
+    bottom: 0;
+}
+h6 {
+    font-size: 20px;
+}    
+ .meetyoursupportsys .para {
+    margin-bottom: 50px;
+}   
+.meetyoursupportsys-item {
+    margin: 0 15px;
+}    
+.meetyoursupportsys .dFlx {
+    margin: 0 -15px;
+}    
+.startjourny .slick-sliderWrp {
+    margin-left: 0;
+}
+
+.values-left {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.values-right {
+    padding-right: 30px;
+    padding-left: 30px;
+} 
+.therapist-bottom .page-header {
+    padding-right: 30px;
+    padding-left: 30px;
+}     
+.startjourny .slick-sliderWrp .slick-slider, .WereDiveThru .slick-sliderWrp .slick-slider {
+    width: 1200px;
+}    
+.meetourtherapists .therapists li {
+    width: 16.66%; padding: 0 5px;
+}    
+.meetourtherapists .therapists li a h5 {
+    font-size: 18px;
+    margin-top: 20px;
+}    
+ .meetourtherapists .page-header {
+    margin-bottom: 30px;
+}   
+.blog .page-header {
+    margin-bottom: 0;
+}
+ .blog .bloginnertext .blog-inner {
+    padding: 0 15px;
+    }
+   .blog .bloginnertext {
+    margin: 0 -15px;
+} 
+ .blog .blog-inner h5 {
+    font-size: 18px;
+}   
+ .blog .blog-inner p {
+    font-size: 16px;
+}
+.footer-up .footerup-uerarea .f-u-user img {
+    width: 500px;
+}
+    .footer-up .footerup-uerarea .f-u-user {
+    top: auto;
+    right: 4%;
+    bottom: 0;
+}
+.footer-up {
+    position: relative;
+    margin-bottom: 0;
+}    
+    .aside .aside-contents .nav-item ul li a {
+    padding: 10px 0;
+    font-size: 16px;
+}
+ .aside.in {
+    padding: 0 20px;
+}   
+.aside .aside-contents .nav-item span {
+    font-size: 16px;
+    margin-bottom: 15px;
+}    
+
+ h2 {
+    font-size: 48px;
+}   
+.inner-banner-sec .inner-banner-sec-right .banner-user img {
+    right: 4%;
+    width: 450px;
+}    
+ .WereDiveThru .page-header p {
+    font-size: 20px;
+    }
+    .WereDiveThru .WereDiveThru-inner h4 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+ .whyworkforus .page-header h3, .support-system6 h3 {
+    font-size: 30px;
+}   
+.whyworkforus .page-header p {
+    font-size: 20px;
+}    
+ .whyworkforus .whyworkforus-right .whyworkforus-usera {
+    right: 6%;
+}   
+ .whyworkforus .whyworkforus-right .whyworkforus-usera img {
+    width: 450px;
+}   
+ .whyworkforus .whyworkforus-left ul li {
+    font-size: 18px;
+}  
+.we-are-divethru .para {
+    margin-bottom: 0px;
+}  
+.we-are-divethru h6 {
+    font-size: 22px;
+}    
+.content p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.pb-115 {
+    padding-bottom: 70px;
+}
+.pt-115 {
+    padding-top: 70px;
+}
+.values-right ul li h5 {
+    font-size: 15px;
+} 
+.areas-button-wrap .btn {
+    width: 184px;
+}  
+.open-roles-section .slick-sliderWrp{
+    width: 1100px;
+} 
+.client_care_box {
+    width: 48%;
+    margin-bottom: 70px;
+}
+.startjourny ul.slick-dots, .WereDiveThru ul.slick-dots {
+    width: 81.5%;
+}
+.open-roles-section .slick-dots {
+    max-width: 85%;
+}
+.responsive-table li {
+    padding: 10px 15px;
+}
+}
+/*=============   	1024 css end	=============*/
+
+
+/*=============   	991 css start	=============*/
+@media(max-width:991px) {
+h1 {
+    font-size: 40px;
+}
+ .main-slider .banner-right .banner-user img {
+    width: 350px;
+}
+.main-slider .banner-right .banner-user {
+top: auto;
+    right: 7%;
+    bottom: 0;
+}  
+.btn {
+    font-size: 16px;
+    padding: 15px 20px;
+}
+ .main-head .headbtnarea ul li a.btn-login {
+    font-size: 16px;
+    margin-left: 20px;
+}   
+h3 {
+    font-size: 30px;
+}
+h6 {
+    font-size: 20px;
+}    
+ .page-header h3 {
+    margin-bottom: 30px;
+}
+.pt-85{padding-top: 50px;}
+.pb-85{padding-bottom: 50px;}
+.mb-85{margin-bottom: 50px;}
+.bt-85{margin-top: 50px;}   
+.meetyoursupportsys .para {
+    margin-bottom: 30px;
+}    
+ .meetyoursupportsys-item {
+    margin: 0 15px; padding: 15px;
+    }
+ 
+.meetyoursupportsys-item h6 {
+    font-size: 17px;
+    margin: 15px 0 10px 0;
+}    
+p {
+    font-size: 15px;
+}
+.main-slider {
+    padding: 50px 0 35px 0;
+}
+ .startjourny .page-header {
+    margin-bottom: 30px;
+}
+.startjourny .slick-sliderWrp {
+    margin-left: 0;
+}    
+ .startjourny .slick-sliderWrp .slick-slider, .WereDiveThru .slick-sliderWrp .slick-slider {
+    width: 1024px;
+}
+    .meetourtherapists .page-header {
+    margin-bottom: 30px;
+}
+.meetourtherapists .therapists li {
+    width: 33.33%;
+    text-align: center;
+}
+    .blog .page-header {
+    margin-bottom: 30px;
+}
+ .blog .blog-inner h5 {
+    font-size: 18px;
+}   
+.blog .bloginnertext .blog-inner {
+    padding: 0 15px;
+}    
+.blog .bloginnertext {
+    margin: 0 -15px;
+}
+.blog .blog-inner p {
+    font-size: 18px;
+}    
+.blog .bloginnertext .blog-inner a {
+    margin-bottom: 30px;
+}    
+.footer-up .footerup-uerarea .f-u-user img {
+    width: 400px;
+}
+.footer-up .footerup-uerarea .f-u-user {
+    top: auto;
+    right: 0%;
+    bottom: 0;
+}    
+.footer-up {
+    margin-bottom: 0;
+}    
+ .main-footer .f-left .footer-link ul li a {
+    font-size: 16px;
+    margin-bottom: 10px;
+}   
+ .main-footer .f-left {
+    width: 100%;
+    padding-right: 0;
+}
+.main-footer .f-right {
+    width: 100%;
+    border-left: none;
+    padding-left: 0;
+    margin-top: 15px;
+}
+    .main-footer .f-right .f-right-text1 p span {
+    font-size: 16px;
+}
+.main-footer .f-right .f-right-text2 .f-right-text2-inner h6 {
+    font-size: 16px;
+}    
+ .main-footer .f-right .f-right-text2 .f-right-text2-inner a {
+    font-size: 16px;
+}   
+ .main-footer .f-right .f-right-text2 .f-right-text2-inner p {
+    font-size: 16px;
+} 
+    
+   .aside .aside-contents .nav-item ul li a {
+    padding: 10px 0;
+    font-size: 16px;
+}
+ .aside.in {
+    padding: 0 20px;
+}   
+.aside .aside-contents .nav-item span {
+    font-size: 16px;
+    margin-bottom: 15px;
+}    
+  .WereDiveThru .slick-sliderWrp {
+    overflow: hidden !important;
+}   
+  h2 {
+    font-size: 40px;
+}     
+ .inner-banner-sec .inner-banner-sec-left p {
+    font-size: 20px;
+}
+    .inner-banner-sec .inner-banner-sec-right .banner-user img {
+    right: 3%;
+    width: 350px;
+}
+.WereDiveThru .page-header p {
+    font-size: 20px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+.WereDiveThru .page-header h3 {
+    margin-bottom: 30px;
+}
+    .WereDiveThru .WereDiveThru-inner h4 {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+
+.WereDiveThru .slick-slider2 {
+    margin: 0;
+}
+.whyworkforus .page-header h3 {
+    font-size: 30px;
+}    
+ .whyworkforus .page-header p {
+    font-size: 20px;
+    width: 100%;
+}   
+.startjourny .journey-item .journey-item-text .j-i-text {
+    width: 100%;
+}
+    .startjourny .journey-item .journey-item-text .btnarea {
+    width: 100%;
+    padding-left: 0;
+    text-align: left; margin-top: 15px;
+}
+ .startjourny .journey-item .journey-item-text {
+    display: block;
+}   
+   .whyworkforus .whyworkforus-left {
+    width: 100%;
+}
+    .whyworkforus .whyworkforus-right {
+    width: 100%;
+}
+ .whyworkforus .dFlx {
+    display: block;
+}   
+ .whyworkforus .whyworkforus-right .whyworkforus-bg {
+    float: inherit;
+}
+    .whyworkforus .whyworkforus-left ul li {
+    font-size: 18px;
+}
+ .openroll .openroll-item {
+    width: 100%;
+    padding: 30px;
+}
+.open-roles-section .items {
+    margin-right: 30px;
+}
+.openroll .openroll-item h4 {
+    font-size: 24px;
+    }
+    .openroll .openroll-item p {
+    font-size: 18px;
+    }
+    
+ .FeaturedIn_box ul {
+    padding: 0 0px 20px;
+}   
+.FeaturedIn_box ul li {
+    width: 25%;
+    margin-bottom: 15px;
+    padding: 0 10px;
+}  
+.Funding-Partners_box ul{
+    padding: 0;
+}   
+.Funding-Partners_box ul li{
+    padding: 0 15px;
+    margin-bottom: 0;
+}
+
+.MeetOurTeamSection .therapists ul li {
+    width: 32%;
+}
+.about-banner .banner-left h1 {
+    font-size: 36px;
+}
+.we-are-divethru h6 {
+    font-size: 20px;
+}
+.aside.in {
+    padding: 0 20px;
+    overflow: scroll;
+}
+.values-left h2 {
+    font-size: 34px;
+}
+.icon-wrap {
+    height: 100px;
+}
+.icon-wrap img{
+    max-width: 90%;
+    max-height: 70%;
+}
+.pb-115 {
+    padding-bottom: 50px;
+}
+.pt-115 {
+    padding-top: 50px;
+}
+.Meet-Our-Therapists-section .therapists ul li {
+    width: 32%;
+    margin-right: 2%;
+    }
+.Meet-Our-Therapists-section .therapists ul li:nth-of-type(4n+0){
+    margin-right: 2%;
+}
+.Meet-Our-Therapists-section .therapists ul li:nth-of-type(3n+0){
+    margin-right: 0%;
+}
+.Meet-Our-Therapists-section .therapists ul li:last-child{
+    margin-right: 0;
+}
+.Meet-Our-Therapists-section h2 {
+    margin-bottom: 40px;
+}
+.areas-button-wrap .btn {
+    width: 154px;
+    font-size: 14px;
+    line-height: 20px;
+    height: 54px;
+}
+.our-tharapist-banner .banner-left h1 {
+    font-size: 32px;
+    line-height: 38px;
+}
+.our-tharapist-banner{
+    padding: 0;
+}
+.open-roles-section .slick-sliderWrp{
+    width: 900px;
+} 
+ul.accordion-list li h3{
+    padding-right: 25px;
+}
+ul.accordion-list li h3 {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.client_care_box h3 {
+    font-size: 30px;
+}
+.client_care_box {
+    margin-bottom: 50px;
+}
+.slick-slider2.slick-dotted.slick-slider {
+    margin-bottom: 45px;
+}
+.startjourny ul.slick-dots, .WereDiveThru ul.slick-dots {
+    width: 85%;
+}
+.WereDiveThru .slick-slider5 .slick-dots {
+    bottom: -32px !important;
+    }
+
+.press3 h3{
+    margin-top: -25px !important;
+}
+.blog-right{
+    display: none;
+}
+.blog-left{
+    width: 100%;
+}
+.blog-contet h5 a{
+    font-size: 18px;
+}
+.blog-contet p {
+    font-size: 16px;
+    }
+.blog-left {
+    width: 100%;
+    justify-content: space-between;
+}
+.blogBox {
+    width: 48%;
+    margin-right: 0%;
+    margin-bottom: 30px;
+}
+.responsive-table .table-header {
+    font-size: 18px;
+}
+.table-row p {
+    font-size: 16px;
+}
+.work-width h4 {
+    font-size: 24px
+    }
+.work-width ul li {
+    font-size: 22px;
+}
+.single-main-content h1 {
+    font-size: 32px;
+    line-height: 42px;
+    }
+.single-main-content h6 {
+    font-size: 18px;
+}
+.single-main-content p, .single-main-content ul li {
+    font-size: 16px;
+}
+.single-main-content h4 {
+    font-size: 24px;
+}
+.single-main-content h5 {
+    font-size: 20px;
+}
+.right-content-single p {
+    font-size: 16px;
+}
+.left-content-single p{
+    font-size: 16px;
+}
+.right-content-single {
+    padding: 15px 8px;
+}
+}
+/*=============   	991 css end		=============*/
+
+@media(max-width:830px){
+.startjourny ul.slick-dots, .WereDiveThru ul.slick-dots, .open-roles-section ul.slick-dots {
+    width: 76.2%;
+}
+
+}
+
+@media(max-width:800px){
+.startjourny ul.slick-dots, .WereDiveThru ul.slick-dots {
+    width: 71.2%;
+}
+ .open-roles-section ul.slick-dots {
+    width: 77.2%;
+}
+}
+
+/*=============   	767 css start		=============*/
+@media(max-width:767px){
+    .meetyoursupportsys-item {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 30px;
+    }
+    .meetyoursupportsys .dFlx{
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+ }
+   .startjourny .slick-sliderWrp .slick-slider, .WereDiveThru .slick-sliderWrp .slick-slider {
+    width: 1000px;
+}
+    .startjourny .journey-item{margin:15px;}
+
+    .startjourny .journey-item .journey-item-text {
+    display: block;
+}
+.startjourny .journey-item .journey-item-text .j-i-text {
+    width: 100%;
+}   
+ .startjourny .journey-item .journey-item-text .btnarea {
+    width: 100%;
+    padding-left: 0;
+    text-align: left;
+    margin-top: 10px;
+}
+    .startjourny .slick-sliderWrp {
+    margin-left: 0;
+    padding: 0 15px;
+}
+.about-slide{
+    padding: 0 15p
+}
+ .btn {
+    font-size: 14px;
+    padding: 10px 15px;
+}   
+    .main-head .headbtnarea ul li a.btn-login{font-size: 14px;    margin-left: 12px;}  
+   .main-head .dFlx {
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+    .main-head .navarea {
+    width: 10%;
+}
+    .main-head .logoarea {
+    width: 90%;
+}
+    .main-head .headbtnarea {
+    text-align: center;
+    width: 100%;
+    margin-top: 10px;
+}
+h1 {
+    font-size: 32px;
+} 
+ .main-slider {
+    padding: 30px 0;
+    overflow: hidden;
+}   
+.main-slider .dFlx {
+    display: block;
+}    
+ .main-slider .banner-left {
+    width: 100%;
+}
+    .main-slider .banner-right {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+    margin-top: 25px;
+}
+.main-slider .banner-right .banner-user {
+    top: 44.3%;
+}   
+.main-slider .banner-left h1 {
+    margin-bottom: 30px;
+}    
+ .main-head {
+    padding: 15px 0;
+} 
+ h3 {
+    font-size: 28px;
+}   
+ .page-header h3 span {
+    display: inline-block;
+}   
+ .pt-85{padding-top: 50px;}
+.pb-85{padding-bottom: 50px;}
+.mb-85{margin-bottom: 50px;}
+.bt-85{margin-top: 40px;}   
+ h6 {
+    font-size: 18px;
+}  
+ .page-header h3 {
+    margin-bottom: 30px;
+}   
+.meetyoursupportsys .para {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+ .meetyoursupportsys-item h6 {
+    font-size: 18px;
+    margin: 15px 0 10px 0;
+}   
+p {
+    font-size: 15px;
+}    
+   .meetourtherapists .page-header {
+    margin-bottom: 30px;
+}
+ .meetourtherapists .therapists li a h5 {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}   
+ .blog .bloginnertext .blog-inner {
+    width: 100%;padding: 0;
+}   
+.blog .page-header {
+    margin-bottom: 30px;
+}
+ .blog .bloginnertext .blog-inner a {
+    margin-bottom: 30px;
+}
+ .blog .blog-inner h5 {
+    font-size: 18px;
+}   
+ .blog .blog-inner p {
+    font-size: 16px;
+}   
+ .footer-up {
+    padding: 50px 0 0 0;
+    margin-bottom: 0;
+} 
+.support-system6{
+    padding: 0;
+}  
+.footer-up .page-header {
+    width: 100%;
+}
+.footer-up .footerup-uerarea .f-u-user {
+    top: auto;
+    bottom: 0;
+}    
+ .footer-up .footerup-uerarea {
+    width: 100%;
+    margin-bottom: -4%;
+}
+ .main-footer .f-left {
+    padding-right: 0;
+    display: block;
+}   
+.main-footer .f-right {
+    border-left: none;
+    padding-left: 0;
+}    
+.main-footer .f-left .footerlogo {
+    margin: 15px 0;
+}
+    .main-footer .f-right .f-right-text2 .f-right-text2-inner {
+    margin-bottom: 15px;
+}
+ .main-footer .f-right .f-right-text1 p span {
+    font-size: 15px;
+    }
+    .main-footer .f-right .f-right-text2 .f-right-text2-inner h6 {
+    font-size: 15px;
+}
+ .main-footer .f-right .f-right-text2 .f-right-text2-inner a {
+    font-size: 15px;
+}   
+ .main-footer .f-right .f-right-text2 .f-right-text2-inner p {
+    font-size: 15px;
+}   
+.main-footer .f-left .footer-link ul li a {
+    font-size: 16px;
+    margin-bottom: 10px;
+}    
+.meetourtherapists .therapists li {
+    width: 50%;
+}
+    .blog .bloginnertext {
+    margin: 0;
+}
+   .startjourny .slick-next, .slick-prev{display: none;}   
+    .meetourtherapists .therapists li a img {
+    margin: 0 auto;
+}
+    .meetourtherapists .therapists li a{text-align: center;}
+    
+   .aside .aside-contents .nav-item ul li a {
+    padding: 5px 0;
+    font-size: 16px;
+}
+ .aside.in {
+    padding: 0 20px;
+}   
+.aside .aside-contents .nav-item span {
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+ .WereDiveThru .slick-sliderWrp .slick-slider {
+    width: 100%;
+}   
+ h2 {
+    font-size: 30px;
+}   
+.inner-banner-sec .inner-banner-sec-left {
+    width: 100%;
+    z-index: 2;
+    position: relative;
+}    
+.inner-banner-sec .inner-banner-sec-right {
+    width: 100%;
+    padding-left: 0;
+}    
+.inner-banner-sec .dFlx {
+    display: block;
+}    
+ .inner-banner-sec .inner-banner-sec-left h2 {
+    margin-bottom: 15px;
+    padding-top: 30px;
+}
+    .inner-banner-sec .inner-banner-sec-left p {
+    font-size: 20px; margin-bottom: 30px;
+}
+ .inner-banner-sec .inner-banner-sec-right .banner-user img {
+    right: 2%;
+    width: 100%;
+}   
+ .WereDiveThru .page-header p {
+    font-size: 18px;
+    width: 100%;
+    margin-bottom: 30px;
+}   
+.WereDiveThru .WereDiveThru-inner h4 {
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+ .WereDiveThru .meetyoursupportsys-item {
+    margin-left:0px;
+    margin-right: 20px;
+}
+    .WereDiveThru .slick-slider2 {
+    margin: 0;
+}
+    .whyworkforus .page-header h3{font-size: 28px;}   
+    .whyworkforus .page-header p {
+    font-size: 18px;
+    width: 100%;
+}
+.whyworkforus .dFlx {
+    margin-top: 30px;
+    display: block;
+}   
+.whyworkforus .whyworkforus-left {
+    width: 100%;
+}
+.whyworkforus .whyworkforus-left {
+    width: 100%;
+}
+    
+    .whyworkforus .whyworkforus-right {
+    width: 100%;
+}
+.whyworkforus .whyworkforus-right .whyworkforus-bg {
+    float: inherit;
+}    
+ .whyworkforus .whyworkforus-right .whyworkforus-usera {
+    right: 0%;
+}   
+.openroll .dFlx {
+    margin: 0;
+}
+.openroll .openroll-item {width: 100%;
+    margin: 0;
+    margin-bottom: 0px;
+}    
+
+    
+    
+ .interested-in-connecting p {
+    font-size: 24px;
+}   
+.FeaturedIn_box ul li {
+    width: 33%;
+} 
+.Mental-Health{
+    padding: 7px 15px 30px 15px;
+}
+.Funding-Partners_box ul li{
+    width: 33%;
+    margin-bottom: 20px;
+}
+.Mental-Health-Section{
+    padding-bottom: 30px
+}
+
+.main-slider .banner-left h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.we-are-divethru .para h6 br{
+    display: none;
+}
+.about-banner {
+    padding: 50px 0 0px 0 !important;
+}
+.start-your-journey{
+    padding-bottom: 50px;
+}
+.left-box {
+    width: 100%;
+}
+.right-box {
+    width: 100%;
+    padding: 30px 0 0 0;
+}
+.sophie-content{
+    flex-flow: row wrap;
+}
+.MeetOurTeamSection .therapists ul li {
+    padding: 15px;
+}
+
+.main-footer .f-left .footer-link ul {
+    display: flex;
+    justify-content: space-around;
+}
+.footerlogo a {
+    width: fit-content;
+    margin: 25px auto;
+    display: block;
+}
+.main-footer .f-left .footer-link ul li a{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.main-footer .f-right .f-right-text2 .f-right-text2-inner{
+    text-align: center;
+}
+.main-footer .f-right .f-right-text2 {
+    padding-left: 0;
+}
+.footer-up .footerup-uerarea .f-u-user img {
+    width: auto;
+    margin: 0 auto;
+}
+
+.main-head .headbtnarea {
+    text-align: center;
+    width: 56%;
+    margin-top: 0px;
+}
+.main-head .logoarea {
+    width: 37%;
+}
+.headbtnarea .btn {
+    font-size: 11px;
+    padding: 10px 10px;
+}
+.main-head .headbtnarea ul li a.btn-login {
+    font-size: 12px;
+    margin-left: 8px;
+    margin-right: 15px;
+}
+.main-head .navarea {
+    width: 6%;
+}
+header .container {
+    width: 100%;
+}
+.main-head .headbtnarea ul{
+    display: flex;
+    flex-flow: row-reverse;
+    align-items: center;
+}
+.about-banner .banner-left h1 {
+    font-size: 32px;
+}
+.aside .aside-contents .nav-item {
+    width: 100%;
+}
+.aside .aside-contents .nav-item ul {
+    flex-flow: row wrap;
+}
+.aside .aside-contents .nav-item ul li {
+    width: 50%;
+}
+.aside .aside-contents {
+    margin: 0px auto;
+
+}
+.aside .aside-contents .nav-item ul {
+    margin-bottom: 15px;
+}
+.banner-left .btn {
+    margin: 0 auto;
+    display: block;
+    width: fit-content;
+}
+.main-slider .banner-right .banner-user img {
+    width: auto;
+}
+.WereDiveThru .slick-sliderWrp .slick-slider {
+    width: 900px;
+}
+.our-tharapist-banner{
+    padding: 30px 0 0;
+}
+.section2-content, .Therapy-Values-content, .Therapist-Match-content{
+    flex-flow: row wrap;
+}
+.section2 .leftBbox{
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 40px;
+}
+.section2 .righBox{
+    width: 100%;
+}
+.leftBbox img{
+    margin: 0 auto;
+}
+.righBox h6{
+    text-align: center;
+}
+.values-left, .values-right{
+    width: 100%;
+    border-radius: 0;
+}
+.Therapist-Match-content .left-box{
+    width: 100%;
+}
+.Therapist-Match-content .right-box{
+    width: 100%;
+}
+.Therapist-Match-section h3, .Therapist-Match-section h6{
+    text-align: center;
+}
+.Therapist-Match-section  .btnarea{
+    margin: 0 auto;
+    width: fit-content;
+}
+.our-tharapist-banner .banner-left h1 {
+    font-size: 32px;
+    line-height: 42px;
+}
+.values-right ul{
+    padding-bottom: 0;
+}
+.content.values-right ul li {
+    width: 30%;
+    max-width: unset;
+}
+.support-system2 .Therapist-Match-content {
+    flex-flow: column;
+}
+.support-system2 .left-box {
+    margin: 0 0 40px 0px;
+}
+.open-roles-section .slick-sliderWrp{
+    width: 800px;
+}
+.support-system4 .right-box{
+    margin: 0;
+}
+.support-system6 .footerup-uerarea {
+    margin-bottom: 0%;
+}
+.our-tharapist-banner p{
+    text-align: center;
+}
+.contact-section1 .banner-left{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.startjourny ul.slick-dots, .WereDiveThru ul.slick-dots{
+    width: 68.2%;
+}
+.open-roles-section ul.slick-dots {
+    width: 64.2%;
+}
+.slide-arrow{
+    display: none !important;
+}
+.membership2 .content p{
+    text-align: center;
+}
+
+.going-thru-row:nth-of-type(odd) {
+    flex-flow: row wrap;
+}
+.thru-left {
+    width: 100%;
+}
+.thru-right {
+    width: 100%;
+}
+.going-thru-row:nth-of-type(odd) .thru-right img, .going-thru-row:nth-of-type(even) .thru-right img{
+    margin: 0 auto;
+}
+.going-thru-row:nth-of-type(odd) .thru-right {
+    padding-right: 0;
+    margin: 0;
+}
+.going-thru-row:nth-of-type(even) .thru-right {
+    padding-left: 0;
+    margin: 0;
+}
+.thru-left {
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+.app-section6 .right-box {
+    margin: 0 0px 0 0px;
+}
+.app-section6 .content p {
+    text-align: center;
+}
+.app-section2 .right-box img{
+    margin: 0 auto;
+}
+.health-guide .blogBox {
+    width: 48%;
+    margin-bottom: 30px;
+}
+.health-guide {
+    flex-flow: row wrap;
+}
+.Recent-Posts-section .btnarea{
+    margin-left: auto;
+    margin-right: 0;
+}
+.Recent-Posts .blogBox{
+    width: 48%;
+    margin-right: 0;
+    margin-bottom: 4%;
+}
+.Recent-Posts {
+    justify-content: space-between;
+}
+.blog-categories li a {
+    padding: 6px 15px;
+    font-size: 14px;
+}
+ul.blog-categories li {
+    margin: 5px 5px;
+}
+.therapist-details .inner-banner-sec-right{
+    min-height: auto;
+}
+.workBox {
+    width: 100%;
+    margin-bottom: 30px;
+    margin: 10px 0;
+}
+.work-width {
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+.focus-box .btn {
+    width: 44%;
+    margin: 2%;
+}
+.focus-box h4 {
+    margin-bottom: 30px;
+}
+.admin-bar{
+    flex-flow: row wrap;
+}
+.right-content-single {
+    padding: 15px 8px;
+    width: 100%;
+}
+.left-content-single {
+    width: 100%;
+}
+.left-content-single p {
+    width: fit-content;
+}
+.single-main-content h1 br{
+    display: none;
+}
+.single-main-content h1{
+    margin-bottom: 30px;
+}
+.single-main-content h6{
+    margin-bottom: 30px;
+}
+}
+/*=============   	767 css end		=============*/
+
+/*=============     599 css start   =============*/
+@media(max-width:599px) {
+
+.startjourny .journey-item{
+    margin-right: 20px;
+}
+ .pt-85{padding-top: 40px;}
+.pb-85{padding-bottom: 40px;}
+.mb-85{margin-bottom: 40px;}
+.bt-85{margin-top: 30px;}  
+.start-your-journey{
+    padding-bottom: 40px;
+}
+ .footer-up {
+    padding: 40px 0 0 0;
+    margin-bottom: 0;
+}
+.blog .page-header h3, .meetourtherapists .page-header h3{
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+.blog .btnarea, .meetourtherapists .btnarea{
+    margin: 0 auto;
+}
+.container {
+    width: 100%;
+}
+.startjourny .slick-sliderWrp {
+    margin-left: 0;
+    padding: 0;
+}
+.startjourny .slick-sliderWrp .slick-slider, .WereDiveThru .slick-sliderWrp .slick-slider {
+    width: 800px;
+}
+.WereDiveThru .slick-sliderWrp .slick-slider, .open-roles-section .slick-sliderWrp .slick-slider{
+    width: 700px;
+}
+.WereDiveThru .meetyoursupportsys-item {
+    margin-left:0px;
+    margin-right: 20px;
+}
+
+.support-system6 {
+    padding: 0;
+}
+.client_care_box {
+    width: 100%;
+}
+}
+/*=============     599 css end     =============*/
+
+
+/*=============   	576 css start	=============*/
+@media(max-width:576px) {
+.main-slider .banner-right .banner-user {
+    top: 34.6%;
+}
+.MeetOurTeamSection .therapists ul li {
+    width: 50%;
+}
+.MeetOurTeamSection .therapists ul li h6 {
+    font-size: 18px;
+}
+.MeetOurTeamSection .therapists ul li p {
+    font-size: 16px;
+}
+.MeetOurTeamSection .therapists ul li h5 {
+    font-size: 16px;
+}
+.WereDiveThru .meetyoursupportsys-item p {
+    padding: 0 15px;
+}
+.Meet-Our-Therapists-section .therapists ul li {
+    width: 48%;
+    margin-right: 4%;
+}
+.Meet-Our-Therapists-section .therapists ul li:nth-of-type(4n+0){
+    margin-right: 4%;
+}
+.Meet-Our-Therapists-section .therapists ul li:nth-of-type(3n+0){
+    margin-right: 4%;
+}
+.Meet-Our-Therapists-section .therapists ul li:last-child{
+    margin-right: 0;
+}
+.Meet-Our-Therapists-section .therapists ul li:nth-of-type(2n+0){
+    margin-right: 0%;
+}
+.values-left {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.values-right {
+    padding-right: 15px;
+    padding-left: 15px;
+} 
+.therapist-bottom .page-header {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.Meet-Our-Therapists-section .therapists ul li {
+    margin-bottom: 25px;
+}
+.open-roles-section .slick-sliderWrp{
+    width: 500px;
+}
+.open-roles-section .items {
+    margin-right: 20px;
+
+    }
+.contact-section1 .banner-left{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.client_care_box {
+    margin-bottom: 40px;
+}
+}
+/*=============   	576 css end		=============*/
+
+
+/*=============   	480 css start		=============*/
+@media(max-width:480px) {
+.main-slider .banner-right .banner-user {
+    top: 41.8%;
+}
+.startjourny .slick-sliderWrp .slick-slider, .WereDiveThru .slick-sliderWrp .slick-slider, .open-roles-section .slick-sliderWrp .slick-slider {
+    width: 600px;
+}
+.WereDiveThru .slick-sliderWrp .slick-slider {
+    width: 600px;
+}
+
+}
+/*=============   	480 css end	=============*/
+
+/*=============   	425 css start	=============*/
+@media(max-width:425px) {
+.main-slider .banner-right .banner-user {
+    top: 44.4%;
+}
+ .values-right ul li {
+    width: 48%;
+    text-align: center;
+}
+.content.values-right ul li {
+    width: 48%;
+    max-width: unset;
+}
+.blogBox, .health-guide .blogBox, .Recent-Posts .blogBox{
+    width: 100%;
+    margin-bottom: 30px;
+    }
+}
+/*=============   	425 css end		=============*/
+
+
+/*=============   	414 css start	=============*/
+@media(max-width:400px) {
+.main-slider .banner-right .banner-user {
+    top: 49.3%;
+}
+.main-head .headbtnarea ul li a.btn-login {
+    font-size: 12px;
+    margin-left: 0px;
+    margin-right: 8px;
+}
+}
+/*=============   	414 css end		=============*/
+
+/*=============     399 css start   =============*/
+@media(max-width: 399px){
+.main-footer .f-right .f-right-text2 {
+    justify-content: center;
+}
+.headbtnarea .btn {
+    font-size: 10px;
+    padding: 7px 7px;
+}
+.startjourny .slick-sliderWrp .slick-slider, .WereDiveThru .slick-sliderWrp .slick-slider, .open-roles-section .slick-sliderWrp .slick-slider {
+    width: 550px;
+}
+.WereDiveThru .slick-sliderWrp .slick-slider {
+    width: 550px;
+}
+}
+/*=============     399 css End     =============*/
+
+/*=============   	375 css start	=============*/
+@media(max-width: 375px){
+.main-slider .banner-right .banner-user {
+    top: 50.3%;
+}
+.areas-button-wrap .btn {
+    width: 132px;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 5px;
+    height: 54px;
+}
+}
+/*=============   	375 css End		=============*/
+
+
+
+
+/*=============   	390 css start	=============*/
+@media(max-width: 390px){
+.main-slider .banner-right .banner-user {
+    top: 57.2%;
+}
+
+}
+/*=============   	390 css End		=============*/
+
+
+/*=============     370 css start   =============*/
+@media(max-width: 370px){
+.startjourny ul.slick-dots, .WereDiveThru ul.slick-dots, .open-roles-section ul.slick-dots {
+    width: 58.2%;
+}
+}
+/*=============     370 css End     =============*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
