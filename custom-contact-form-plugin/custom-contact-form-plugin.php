@@ -13,7 +13,7 @@ function custom_form() {
     wp_localize_script('custom-form-validation', 'custom_contact_form_ajax', array(
         'ajax_url' => admin_url('admin-ajax.php')
     ));
-} 
+}  
 
 
  add_action('wp_enqueue_scripts', 'custom_form');

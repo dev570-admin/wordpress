@@ -14,7 +14,7 @@ jQuery(document).ready(function($) {
         if (!emailPattern.test(email)) {
             alert(' cheack valid email address.');
             return;
-        }
+        } 
 
         if (!name || !email || !subject || !message) {
             alert('Please fill in all fields.');
