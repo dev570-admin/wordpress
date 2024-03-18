@@ -3,6 +3,7 @@
 get_header();
 ?>
 
+
 <div id="primary" class="content-area">
     <main id="main" class="site-main" role="main">
         <h1>Custom Cart Page</h1>
@@ -11,17 +12,18 @@ get_header();
             echo '<p>Your cart is empty.</p>';
         } else {
             wc_get_template('cart/cart.php');
-
-            // Add "Proceed to checkout" button
-            echo '<a href="' . esc_url(wc_get_checkout_url()) . '" class="checkout-button button alt wc-forward" id="proceed-to-checkout">' . __('Proceed to checkout') . '</a>';
-
-            // Remove the older button
-            echo '<script>jQuery("#old-proceed-to-checkout").remove();</script>';
+           // Add "Proceed to checkout" button
+            
         }
         ?>
+      
     </main><!-- #main -->
+    
+
 </div><!-- #primary -->
+
 
 <?php
 get_footer();
 ?>
+
