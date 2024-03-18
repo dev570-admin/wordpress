@@ -1,0 +1,27 @@
+
+// Change add to cart text on product archives page
+add_filter( 'woocommerce_product_add_to_cart_text', 'woocommerce_add_to_cart_button_text_archives' );  
+function woocommerce_add_to_cart_button_text_archives() {
+    return __( 'Buy Now', 'woocommerce' );
+}
+
+// Change add to cart text on Single product  page
+add_filter('woocommerce_product_single_add_to_cart_text', 'custom_add_to_cart_text');
+function custom_add_to_cart_text($text) {
+    return __('Buy Now', 'woocommerce');
+}
+
+//================================================================
+
+
+/**
+ * Add a custom input field to the product page.
+ */
+function add_text_field() { ?>
+    <div class="custom-field-wrap" style="margin: 10px;">
+        <label for="custom-field"><?php esc_html_e( 'Help line 1800 1800 2222' ); ?></label>
+        
+    </div>
+    <?php
+}
+add_action( 'woocommerce_after_add_to_cart_button', 'add_text_field' );
